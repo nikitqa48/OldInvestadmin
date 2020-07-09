@@ -1,0 +1,99 @@
+ru:
+  layouts:
+    application:
+      site-name: Липецк
+      export_left: До следущего эспорта в федеральную базу осталось -
+
+  companies:
+    index:
+      title: Предприятия
+    edit:
+      title: Редактирование информации о предприятии
+    new:
+      title: Добавить предприятие
+
+  development_plans:
+    index:
+      title: План развития инфраструктуры
+    edit:
+      title: Редактировать объект
+    new:
+      title: Добавить объект
+    form:
+      map: Отметка на карте
+
+  cities:
+    index:
+      title: Города
+    edit:
+      title: Редактирование города
+    new:
+      title: Создание города
+
+  municipalities:
+    index:
+      title: Муниципалитеты
+    edit:
+      title: Редактирование муниципалитета
+    new:
+      title: Создание муниципалитета
+
+
+  clusters:
+    index:
+      title: Кластеры
+    edit:
+      title: Редактирование кластера
+    new:
+      title: Создание кластера
+
+  platforms:
+    index:
+      title: Площадки
+    edit:
+      title: Редактирование инвестплощадки
+    new:
+      title: Создание инвестплощадки
+    types:
+      greenfield: Greenfield
+      brownfield: Brownfield
+      park: Индустриальный парк
+
+  projects:
+    index:
+      title: Проекты
+      demo_mode: Демо
+    edit:
+      title: Редактирование инвестпроекта
+    new:
+      title: Создание инвестпроекта
+
+  industrial_parks:
+    index:
+      title: Индустриальные парки
+    edit:
+      title: Редактирование индустриального парка
+    new:
+      title: Добавить Индустриальный парк
+
+  special_economic_zones:
+    index:
+      title: Особые экономические зоны
+    edit:
+      title: Редактирование особой экономической зоны
+    new:
+      title: Создание особой экономической зоны
+
+  users:
+    new:
+      title: Добавить пользователя
+    edit:
+      title: Редактирование
+
+  natural_resources:
+    index:
+      title: Натуральные ресурсы
+    edit:
+      title: Редактирование
+    new:
+      title: Добавить натуральный ресурс

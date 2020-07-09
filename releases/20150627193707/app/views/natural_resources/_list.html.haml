@@ -1,0 +1,21 @@
+%table.table.table-bordered
+  %thead
+    %th= t("activerecord.attributes.natural_resource.name")
+    %th= t("activerecord.attributes.natural_resource.natural_resource_type_code")
+    %th= t("activerecord.attributes.natural_resource.description")
+    %th
+  %tbody
+    - collection.each do |resource|
+      %tr
+        %td= resource.try(:name)
+        %td= resource.natural_resource_type.try(:name)
+        %td= resource.description
+        %td.under-pressure-td
+          - if can? :update, resource
+            = link_to edit_natural_resource_path(resource), :class => "btn btn-primary btn-xs",:title => t("buttons.edit") do
+              %i.icon-pencil.icon-white
+            = button_fix
+          - if can? :destroy, resource
+            = link_to natural_resource_path(resource), :method => :delete, :class => "btn btn-xs btn-danger",:title => t("buttons.delete"), :confirm => t("buttons.confirm") do
+              %i.icon-trash.icon-white
+= will_paginate collection

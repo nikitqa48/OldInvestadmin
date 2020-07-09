@@ -1,0 +1,47 @@
+.pictures-panel {
+  background:#F7F7F9;
+  border-top: 1px solid #DDD;
+  padding: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  overflow: hidden;
+
+  .pictures-container {
+
+    .pictures {
+      margin-top:10px;
+
+      .picture.template {
+        display: none;
+      }
+      .picture {
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+        .destroy-picture-btn {
+          margin-top: 5px;
+          padding-top: 0px;
+          padding-bottom: 0px;
+        }
+
+      }
+      .picture.uploaded {
+        text-align: center;
+        float:left;
+        margin:10px 10px 0 0;
+        img {
+          margin-bottom: 5px;
+        }
+        a {
+          display: block;
+        }
+      }
+
+    }
+
+  }
+}
+.file-uploader {
+  margin-left:10px;
+}
+

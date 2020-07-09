@@ -1,0 +1,46 @@
+= form_for resource, :html => {:multipart => true, :class => 'map-selector form-horizontal hotkeys large-form double-submit-protector industrial_park-form', "data-map-selector" => "area", "data-namespace" => "industrial_park"} do |f|
+  %fieldset
+    %legend
+      = defined?(legend) && legend
+    = render_notice
+    = error_explanation resource
+    .form-group
+      .control-label
+        = submit_btn f
+
+    = form_group f, :name, :text_field
+    = map_field f
+    = form_group f, :park_type, :text_field
+    = form_group f, [:municipality, :municipality_id], :select, options_from_collection_for_select(@municipalities, :id, :name,:selected => f.object.municipality_id), {:include_blank => true}, {:class => "simple-chosen", "data-placeholder" => t("helpers.placeholder.default")}
+
+    = form_group f, :description, :text_field
+    = form_group f, :company, :text_field
+    = form_group f, :legal_address, :text_area
+    = form_group f, :contact_person, :text_field
+    = form_group f, :contact_phone, :text_field
+    = form_group f, :contact_email, :text_field
+    = form_group f, :address, :text_area
+    = form_group f, :free_square, :text_field, class: 'numeric'
+    = form_group f, :residents, :text_area
+    = form_group f, :nearest_houses_distance, :text_field, class: 'numeric'
+
+    = form_group f, :authorized_activities, :text_area
+    = form_group f, :protection_zones, :text_area
+    = form_group f, :transport_driveways, :text_area
+    = form_group f, :services, :text_area
+
+    = form_group f, :central_region_distance, :text_field, class: 'numeric'
+    = form_group f, :another_region_distance, :text_field, class: 'numeric'
+    = form_group f, :city_distance, :text_field, class: 'numeric'
+    = form_group f, :road_distance, :text_field, class: 'numeric'
+    = form_group f, :airport_distance, :text_field, class: 'numeric'
+    = form_group f, :seaport_distance, :text_field, class: 'numeric'
+
+    - [:gas, :heating, :electricity, :water, :sewerage, :sewage_plants, :boiler_system].each do |field|
+      = form_group f, field, :select, bool_select_array, {:include_blank => true}, :class => 'simple-chosen', 'data-placeholder' => t('helpers.placeholder.default')
+      = form_group f, :"#{field}_details", :text_field
+
+    = form_check_box f, :demo_mode
+    .form-actions
+      = submit_btn f
+      = cancel_btn f

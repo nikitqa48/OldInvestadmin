@@ -1,0 +1,14 @@
+en:
+  helpers:
+    placeholder:
+      default: Choose...
+    bool_to:
+      word:
+        if_true: "Yes"
+        if_false: "No"
+      access:
+        if_true: Have
+        if_false: None
+    hints:
+      password_min_length: "Password can not be less than 6 characters"
+      choose_custom_coords: "Or you can choose custom coords"

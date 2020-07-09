@@ -1,0 +1,15 @@
+!!!5
+%html
+  %head
+    %meta(content='text/html;charset=utf-8' http-equiv='content-type')
+    %link(rel="stylesheet"){:href => File.join(Rails.root, 'vendor', 'assets', 'stylesheets', 'bootstrap.css')}
+    :css
+      @page {
+          size: A4;
+          margin: 2cm;
+      }
+      .strong {
+          padding-left: 3cm;
+      }
+  %body
+    = yield

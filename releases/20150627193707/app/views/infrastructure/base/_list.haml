@@ -1,0 +1,18 @@
+%table.table.table-bordered
+  %thead
+    %th= t('activerecord.attributes.infrastructure.name')
+    %th
+  %tbody
+    - collection.each do |item|
+      %tr
+        %td= item.name
+        %td.under-pressure.buttons
+          - if can? :update, item
+            = link_to url_for(:action => :edit, :id => item.id), :class => 'btn btn-primary btn-xs', :title => t('buttons.edit') do
+              %i.icon-pencil.icon-white
+            = button_fix
+          - if can? :destroy, item
+            = link_to url_for(:action => :destroy, :id => item.id), :method => :delete, :class => 'btn btn-xs btn-danger',
+                      :title => t('buttons.delete'), :confirm => t('buttons.confirm') do
+              %i.icon-trash.icon-white
+= will_paginate collection

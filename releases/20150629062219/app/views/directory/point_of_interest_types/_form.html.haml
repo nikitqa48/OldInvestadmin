@@ -1,0 +1,17 @@
+= form_for [:directory, resource], :html => {:multipart => true, :class => "form-horizontal hotkeys large-form double-submit-protector"} do |f|
+  %fieldset
+    %legend
+      = defined?(legend) && legend
+    = render_notice
+    = error_explanation resource
+    .form-group
+      .control-label
+        = f.submit resource.new_record? ? t("buttons.create") : t("buttons.save"), :class => 'btn btn-primary btn-with-tooltip',"data-original-title" => t("messages.tooltips.save"), "data-placement" => "bottom"
+      .controls
+    = form_group f, :code, :text_field, {"data-mask" => "?9999999999", "data-mask-placeholder" => " "}
+    = form_group f, :name, :text_field
+    = icon_upload_group f, :icon
+
+    .form-actions
+      = submit_btn f
+      = cancel_btn f

@@ -1,0 +1,15 @@
+.custom-field-wrap{:class => @template }
+  %hr
+  .btn.btn-danger.btn-delete= t("buttons.delete")
+  = building_group :name, @building
+  = building_group :appointment, @building
+  = building_group :floors, @building
+  = building_group :main_parameters, @building
+  = building_group :gas, @building
+  = building_group :electricity, @building
+  = building_group :watersupply, @building
+  = building_group :canalization, @building
+  = building_group :sewage_treatment_plant, @building
+  = building_group :heating, @building
+  = building_group :railway, @building
+  = building_group :cars, @building

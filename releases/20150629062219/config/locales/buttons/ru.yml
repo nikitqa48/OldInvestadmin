@@ -1,0 +1,39 @@
+ru:
+  buttons:
+    add: Добавить
+    add_image: Добавить изображение
+    create: Добавить
+    cancel: Отменить
+    save: Сохранить
+    edit: Редактирование
+    close: Закрыть
+    send: Сохранить
+    save_draft: Сохранить как черновик
+    delete: Удалить
+    delete_force: Удалить вместе с зависимыми объектами
+    confirm: Вы уверены что хотите удалить эту запись?
+    send_appeal: Подать апелляцию
+    clear: Очистить
+    change: Изменить
+    sign_out: Выйти
+    log: История изменений
+    close_icon: "×"
+    export_xls: Экспорт в xls
+    view: Просмотреть
+    list: Список
+    back: Назад
+    students: Учащиеся
+    station: ППЭ
+    create_station: Создать ППЭ
+    groups: Классы
+    employees: Сотрудники
+    ous: Список ОУ
+    search: Поиск
+    sending: Ищем...
+    create_user: Создать пользователя
+    owner_list: Список пользователей
+    manage_users: ""
+    classrooms: Кабинеты
+    add_building: Добавить строение
+    select: Выбрать
+    rlog_items: История изменений

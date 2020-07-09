@@ -1,0 +1,21 @@
+= form_for @development_plan, :html => {:multipart => true,:class => 'map-selector form-horizontal hotkeys picture-list large-form double-submit-protector', 'data-namespace' => 'development_plan', 'data-map-selector' => 'point'} do |f|
+  %fieldset
+    %legend
+      = defined?(legend) && legend
+    = render_notice
+    = error_explanation @development_plan
+    .form-group
+      .control-label
+        = f.submit @development_plan.new_record? ? t('buttons.create') : t('buttons.save'), :class => 'btn btn-primary btn-with-tooltip','data-original-title' => t('messages.tooltips.save'),'data-placement' => 'bottom'
+      .controls
+    = form_group f, :name, :text_field
+    = form_group f, :description, :text_area
+    = form_group f, [:development_plan_type, :development_plan_type_code], :select, options_from_collection_for_select(@development_plan_types, :code, :name,:selected => f.object.development_plan_type_code),
+    {:include_blank => true}, {:class => "simple-chosen", "data-placeholder" => t("helpers.placeholder.default")}
+
+    = owner_select f
+    = map_field f, true
+
+    .form-actions
+      = f.submit @development_plan.new_record? ? t('buttons.create') : t('buttons.save'), :class => 'btn btn-primary btn-with-tooltip','data-original-title' => t('messages.tooltips.save'),'data-placement' => 'bottom'
+      = link_to t('buttons.cancel'), development_plans_path, :class => 'btn btn-default'

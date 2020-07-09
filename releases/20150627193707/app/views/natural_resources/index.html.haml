@@ -1,0 +1,8 @@
+= render_notice
+%h3.pull-left= t(".title")
+%span.top-panel-actions
+  - if can? :create, NaturalResource
+    = link_to new_natural_resource_path, :class => 'btn btn-primary btn-right' do
+      %i.icon-plus.icon-white
+      = t("buttons.add")
+= render :partial => "list", :locals => {:natural_resources => @natural_resources}

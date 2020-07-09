@@ -1,0 +1,22 @@
+.top-panel-actions
+  - if can? :list, User
+    = link_to users_path, :class => 'btn btn-primary btn-right', :title => t('buttons.list') do
+      %i.icon-th-list.icon-white
+  - if can? :edit, @user
+    - if can? :list, User
+      = button_fix
+    = link_to edit_user_path(@user), :class => 'btn btn-primary btn-right', :title => t('buttons.edit') do
+      %i.icon-pencil.icon-white
+%table.table.table-bordered
+  %tbody
+    = data_row @user, :email
+- if can? :update, @user
+  = link_to edit_user_path(@user), :class => 'btn btn-primary',:title => t('buttons.edit') do
+    %i.icon-pencil.icon-white
+    %span= t('buttons.edit')
+- if can? :list, User
+  - if can? :update, @user
+    = button_fix
+  = link_to users_path, :class => 'btn btn-primary', :title => t('buttons.list') do
+    %i.icon-th-list.icon-white
+    %span= t('buttons.list')

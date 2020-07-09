@@ -1,0 +1,141 @@
+ru:
+  infrastructure:
+    base:
+      form:
+        map: Отметка на карте
+
+    central_heating_units:
+      index:
+        title: Центральные тепловые пункты
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Добавить центральный тепловой пункт
+
+    diesel_power_plants:
+      index:
+        title: Дизельная электростанция
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Добавить дизельная электростанция
+
+    duel_fuel_power_plants:
+      index:
+        title: ГДЭС
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Добавить ГДЭС
+
+    electric_power_transmissions:
+      index:
+        title: Линии электропередач
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Добавить линию электропередач
+
+    gas_distribution_stations:
+      index:
+        title: Газораспределительные станции
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Добавить газораспределительную станцию
+
+    gas_pipelines:
+      index:
+        title: Газопровод
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Добавить газопровод
+
+    geothermal_electricity_plants:
+      index:
+        title: ГеоЭС
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Добавить ГеоЭС
+
+    intakes:
+      index:
+        title: Водозаборные сооружения
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Добавить объект
+
+    heat_only_boiler_stations:
+      index:
+        title: Котельные
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Добавить котельную
+
+    heating_mains:
+      index:
+        title: Теплотрассы
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Добавить теплотрассу
+
+    hydro_plants:
+      index:
+        title: ГЭС
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Добавить ГЭС
+
+    sewers:
+      index:
+        title: Коллектор
+      edit:
+        title: "Редактирование %{name}"
+      new:
+        title: Добавить объект
+
+    transformer_substations:
+      index:
+        title: Трансформаторные подстанции
+      edit:
+        title: "Редактирование %{name}"
+      new:
+        title: Создание трансформаторные подстанции
+
+    wastewater_treatment_plants:
+      index:
+        title: Очистные сооружения
+      edit:
+        title: "Редактирование %{name}"
+      new:
+        title: Добавить объект
+
+    water_supplies:
+      index:
+        title: Сети водоснабжения
+      edit:
+        title: "Редактирование %{name}"
+      new:
+        title: Добавить объект
+
+    wind_plants:
+      index:
+        title: ВЭС
+      edit:
+        title: "Редактирование %{name}"
+      new:
+        title: Создание ВЭС
+
+    point_of_interests:
+      index:
+        title: Точки интереса
+      edit:
+        title: Редактирование
+      new:
+        title: Добавить

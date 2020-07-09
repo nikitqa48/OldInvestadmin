@@ -1,0 +1,19 @@
+en:
+  buttons:
+    add: Add
+    add_image: Add image
+    create: Create
+    cancel: Cancel
+    save: Save
+    edit: Edit
+    close: Close
+    send: Save
+    delete: Delete
+    confirm: Are you sure you want to delete this record?
+    clear: Clear
+    change: Change
+    sign_out: Sign out
+    close_icon: "×"
+    back: Back
+    select: Select
+    rlog_items: Revision history

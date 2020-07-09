@@ -1,0 +1,9 @@
+= render_notice
+-#.container
+.error-page
+  .alert.alert-danger
+    %span= t("errors.messages.access_denied")
+    = link_to "javascript:window.history.back()", :class => "btn btn-danger" do
+      = t("buttons.back")
+    = button_fix
+    = link_to t("messages.switch_user"), destroy_user_session_path, :class => "btn btn-danger", :method => :delete

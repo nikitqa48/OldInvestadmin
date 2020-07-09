@@ -1,0 +1,9 @@
+= render_notice
+%h3.pull-left= t("#{controller_name}.index.title")
+
+%span.top-panel-actions
+  - if can? :create, resource_class
+    = link_to route(:new), class: 'btn btn-primary btn-right' do
+      %i.icon-plus.icon-white
+      = t('buttons.add')
+= render 'list', collection: collection

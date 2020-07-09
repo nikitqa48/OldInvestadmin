@@ -1,0 +1,69 @@
+source 'http://rubygems.org'
+
+gem 'rails', '4.0.0'
+
+# DB
+gem 'pg'
+
+# Assets / Views
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
+gem 'jquery-rails'
+gem 'haml-rails'
+gem 'therubyracer', platforms: :ruby
+gem 'simple-navigation-bootstrap'
+gem 'will_paginate'
+
+# PDF
+gem 'prince-ruby'
+
+gem 'ckeditor'
+
+# Uploads
+gem 'carrierwave'
+gem 'mini_magick'
+
+# Users
+gem 'devise'
+gem 'devise_invitable'
+
+gem 'cancan'
+
+# Devel
+gem 'russian'
+gem 'jbuilder'
+gem 'colored'
+gem 'pry-rails'
+gem 'inherited_resources'
+gem 'globalize'
+gem 'cells'
+gem 'hpricot'
+
+group :development do
+  gem 'capistrano'
+  gem 'rvm-capistrano'
+  gem 'capistrano-ext'
+end
+
+group :production do
+  gem 'unicorn'
+end
+
+group :doc do
+  # bundle exec rake doc:rails generates the API under doc/api.
+  gem 'sdoc', require: false
+end
+
+# Use ActiveModel has_secure_password
+# gem 'bcrypt-ruby', '~> 3.0.0'
+
+# Use unicorn as the app server
+# gem 'unicorn'
+
+# Use Capistrano for deployment
+# gem 'capistrano', group: :development
+
+# Use debugger
+# gem 'debugger', group: [:development, :test]
+

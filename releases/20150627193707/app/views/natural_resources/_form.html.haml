@@ -1,0 +1,27 @@
+= form_for @natural_resource, :html => {:multipart => true, :class => "map-selector form-horizontal hotkeys large-form double-submit-protector",
+  "data-map-selector" => @natural_resource.natural_resource_type.try(:map_format_sym), "data-namespace" => "natural_resource"} do |f|
+  %fieldset
+    %legend
+      = defined?(legend) && legend
+    = render_notice
+    = error_explanation @natural_resource if @error_explanation
+
+    .form-group
+      .control-label
+        = submit_btn f
+
+    = form_group f, :name, :text_field
+    = form_group f, :content, :text_area
+    = form_group f, :natural_resource_type_code, :select,
+                 @natural_resource_types.map{|t| "<option value='#{t.code}' map-type='#{t.map_format_sym}' #{t.code == @natural_resource.natural_resource_type_code ? "selected='selected'" : ''}>#{t.name}</option>"}.join('').html_safe,
+                 {}, {:class => 'form-control simple-chosen map-type-select'}
+    = owner_select f
+    = map_field f
+    = form_group f, :reserve, :text_field, :class => "numeric"
+    = form_group f, :licence, :text_field
+    = form_group f, :description, :text_area
+    = form_group f, :additional_information, :text_area
+
+    .form-actions
+      = submit_btn f
+      = cancel_btn f

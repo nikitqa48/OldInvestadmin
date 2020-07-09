@@ -1,0 +1,21 @@
+!!!
+%html
+  %head
+    %title LipetskAdmin
+    = stylesheet_link_tag 'application', media: 'all'
+    = javascript_include_tag 'application'
+    = csrf_meta_tags
+  %body
+    .navbar.navbar-inverse.navbar-static-top.bs-docs-nav
+      .navbar-brand= t '.site-name'
+      = render_navigation(expand_all: true, renderer: :bootstrap)
+      %ul.nav.navbar-nav.pull-right.language
+        %li= raw locale_selector
+      .clearfix
+    .container.content
+      - t = Time.now
+      - time = Time.new(t.year, t.month, t.day + 1) - Time.now
+      .alert.alert-success
+        = t '.export_left'
+        .timer{:data => {'time-left' => time.floor, :iterator => '-1'}}
+      = yield

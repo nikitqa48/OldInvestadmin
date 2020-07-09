@@ -1,0 +1,18 @@
+= form_for @user, html: {multipart: true, class: 'hotkeys form-horizontal large-form'} do |f|
+  %fieldset
+    %legend
+      = defined?(legend) && legend
+    = render_notice
+    = error_explanation @user
+    = form_group f,:name, :text_field
+    = form_group f,:email, :text_field
+    = form_group f,:password, :password_field, hint: t('helpers.hints.password_min_length')
+    = form_group f,:phone, :text_field
+    - if current_user.role == 'admin'
+      = form_group f,:role, :select, User.roles_list.map{|role| [t("activerecord.attributes.user.roles.#{role}"), role]},
+                  {}, {class: 'form-control simple-chosen'}
+
+    .form-actions
+      = submit_btn f
+      = cancel_btn f
+

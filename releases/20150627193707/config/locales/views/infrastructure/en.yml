@@ -1,0 +1,145 @@
+en:
+  infrastructure:
+    central_heating_units:
+      index:
+        title: Сentral heating units
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Create central heating unit
+
+    diesel_power_plants:
+      index:
+        title: Diesel power plants
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Add diesel power plant
+
+    duel_fuel_power_plants:
+      index:
+        title: Duel fuel power plants
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Add duel fuel power plant
+
+    electric_power_transmissions:
+      index:
+        title: Electric power transmissions
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Add electric power transmission
+
+    gas_distribution_stations:
+      index:
+        title: Gas distribution stations
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Add gas distribution station
+
+    gas_pipelines:
+      index:
+        title: Gas pipelines
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Add gas pipelines
+
+    geothermal_electricity_plants:
+      index:
+        title: Geothermal electricity plants
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Add geothermal electricity plant
+
+    intakes:
+      index:
+        title: Intakes
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Add object
+      form:
+        map: Marker on map
+
+    heat_only_boiler_stations:
+      index:
+        title: Heat-only boiler stations
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Add heat-only boiler station
+
+    heating_mains:
+      index:
+        title: Heating mains
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Add heating main
+
+    hydro_plants:
+      index:
+        title: Hydro plants
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Add hydro plant
+
+    sewers:
+      index:
+        title: Sewers
+      edit:
+        title: Edit project
+      new:
+        title: Create project
+      form:
+        map: Marker on map
+
+    transformer_substations:
+      index:
+        title: Transformer substations
+      edit:
+        title: "Edit %{name}"
+      new:
+        title: Add transformer substations
+
+    wastewater_treatment_plants:
+      index:
+        title: Wastewater treatment plants
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Add object
+      form:
+        map: Marker on map
+
+    water_supplies:
+      index:
+        title: Water supplies
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Add object
+      form:
+      map: Marker on map
+
+    wind_plants:
+      index:
+        title: wind plants
+      edit:
+        title: "Edit %{name}"
+      new:
+        title: Add wind plant
+
+    point_of_interests:
+      index:
+        title: Points of interests
+      edit:
+        title: Edit
+      new:
+        title: Add

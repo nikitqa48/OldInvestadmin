@@ -1,0 +1,7 @@
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: lipetsk-investmap
+  pool: 5
+  username: lipetsk-investmap
+  password: losjdflosejf4

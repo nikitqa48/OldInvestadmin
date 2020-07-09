@@ -1,0 +1,99 @@
+en:
+  layouts:
+    application:
+      site-name: Lipetsk
+
+  companies:
+    index:
+      title: Companies
+    edit:
+      title: Edit company
+    new:
+      title: Add company
+    form:
+      map: Marker on map
+
+  development_plans:
+    index:
+      title: Development plan
+    edit:
+      title: Edit object
+    new:
+      title: Create object
+    form:
+      map: Marker on map
+  cities:
+    index:
+      title: Cities
+    edit:
+      title: Edit city
+    new:
+      title: Create city
+    form:
+      map: Marker on map
+
+
+  clusters:
+    index:
+      title: Clusters
+    edit:
+      title: Edit cluster
+    new:
+      title: Create cluster
+
+  municipalities:
+    index:
+      title: Municipalities
+    edit:
+      title: Edit municipality
+    new:
+      title: Create municipality
+    form:
+      map: Marker on map
+
+  platforms:
+    index:
+      title: Platforms
+    edit:
+      title: Edit platform
+    new:
+      title: Create platform
+    form:
+      map: Area on map
+    types:
+      greenfield: Greenfield
+      brownfield: Brownfield
+      park: Industrial park
+
+  projects:
+    index:
+      title: Projects
+      demo_mode: Demo
+    edit:
+      title: Edit project
+    new:
+      title: Create project
+
+  industrial_parks:
+    index:
+      title: Industrial parks
+    edit:
+      title: Edit Industrial park
+    new:
+      title: Add Industrial parks
+
+  special_economic_zones:
+    index:
+      title: Special economic zones
+    edit:
+      title: Edit special economic zone
+    new:
+      title: Create special economic zones
+    form:
+      map:  Area on map
+
+  users:
+    new:
+      title: Add user
+    edit:
+      title: Edit

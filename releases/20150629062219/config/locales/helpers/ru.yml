@@ -1,0 +1,14 @@
+ru:
+  helpers:
+    placeholder:
+      default: Выберите из списка
+    bool_to:
+      word:
+        if_true: Да
+        if_false: Нет
+      access:
+        if_true: Имеется
+        if_false: Отсутствует
+    hints:
+      password_min_length: "Пароль не может быть меньше 6 символов"
+      choose_custom_coords: "Или вы можете выбрать координаты вручную"

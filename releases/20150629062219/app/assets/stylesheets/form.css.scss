@@ -1,0 +1,96 @@
+
+.error-messages {
+  border-color: #EED3D7;
+  background: #F2DEDE;
+  border-radius: 4px;
+  padding: 10px 10px 10px 35px;
+  margin: 0 0 25px 0;
+  color: #B94A48;
+  li {
+    line-height: 30px;
+  }
+}
+
+.field_with_errors {
+  display: inline;
+  label {
+    color: #B94A48;
+  }
+  input, textarea, select, .chosen-container > :first-child {
+    color: #B94A48;
+    border-color: #B94A48;
+  }
+}
+
+.large-form {
+  .form-group {
+    .control-label {
+      width: 200px;
+    }
+    .controls {
+      input, select, textarea {
+        width: 100%;
+        max-width: 530px;
+      }
+
+      label.checkbox {
+        input{
+          width: auto;
+        }
+      }
+
+      .picture-uploader {
+        input {
+          display: inline-block;
+          width: auto;
+        }
+
+        input.remove-picture {
+          margin-right: 10px;
+          margin-top: -5px;
+        }
+
+        img {
+          display: block;
+          margin-bottom: 10px;
+          max-width: 540px;
+        }
+      }
+    }
+  }
+}
+
+
+.large-form .form-group .controls {
+  margin-left: 220px;
+}
+
+.form-horizontal .form-actions {
+  padding-left: 206px;
+  margin-bottom: 20px;
+}
+
+.form-horizontal .help-block, .picture-help-block {
+  font-size: 12px;
+  color: #888;
+  font-style: italic;
+}
+
+.under-pressure {
+  a.btn {
+    float: none;
+    margin: 0;
+  }
+  width: 1px;
+  white-space: nowrap;
+}
+.remember {
+  margin-bottom: 10px;
+}
+
+.leaflet-control-container{
+  .leaflet-top, .leaflet-left {
+    z-index: 1;
+  }
+}
+

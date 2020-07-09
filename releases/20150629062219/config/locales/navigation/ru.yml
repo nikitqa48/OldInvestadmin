@@ -1,0 +1,9 @@
+ru:
+  navigation:
+    users: Пользователи
+    user_show: Просмотр
+    user_edit: Редактирование
+    user_exit: Выход
+    information_layers: Информационные слои
+    infrastructure: Инфраструктура
+    directories: Справочники

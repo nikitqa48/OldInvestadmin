@@ -1,0 +1,38 @@
+ru:
+  activerecord:
+    attributes:
+
+      common: &common
+        code: Код
+        name: Название
+
+      economic_activity:
+        <<: *common
+
+      development_plan_type:
+        <<: *common
+
+      land_category:
+        <<: *common
+
+      special_economic_zone_type:
+        <<: *common
+
+      ownership_type:
+        <<: *common
+
+      project_type:
+        <<: *common
+
+      natural_resource_type:
+        <<: *common
+        icon: Иконка
+        map_format: Отображение на карте
+        map_formats:
+          line: Линия
+          point: Точка
+          area: Область
+
+      point_of_interest_type:
+        <<: *common
+        icon: Иконка (24x24)

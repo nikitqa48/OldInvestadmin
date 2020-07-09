@@ -1,0 +1,10 @@
+ru:
+  page_fragments:
+    apply_modal:
+      name: Содержание всплывающего окна "У меня есть проект"
+    apply_contacts:
+      name: Контакты для подачи заявки
+    footer_contacts:
+      name: Контакты в футере
+    passport:
+      name: Паспорт

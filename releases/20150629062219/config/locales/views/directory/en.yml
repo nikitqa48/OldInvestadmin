@@ -1,0 +1,75 @@
+en:
+  directory:
+    activity_spheres:
+      index:
+        title: Areas of activity of enterprises
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Create areas of activity of enterprises
+
+    economic_activities:
+      index:
+        title: Economic activity
+      edit:
+        title: Edit economic activity
+      new:
+        title: Create economic activity
+
+    land_categories:
+      index:
+        title: Categories of land
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Categories of land
+
+    ownership_types:
+      index:
+        title: Types of property
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Create type of property
+
+    project_types:
+      index:
+        title: Project types
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Create project type
+
+    natural_resource_types:
+      index:
+        title: Natural resource type
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Add
+
+    point_of_interest_types:
+      index:
+        title: Point of interests
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Add
+
+
+    special_economic_zone_types:
+      index:
+        title: Special economic zone types
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Add
+
+
+    development_plan_types:
+      index:
+        title: Development plan types
+      edit:
+        title: "Edit: %{name}"
+      new:
+        title: Add

@@ -1,0 +1,23 @@
+common: &common
+  adapter: postgresql
+  encoding: unicode
+  min_messages: WARNING
+  host: localhost
+  pool: 5
+
+development:
+  <<: *common
+  database: lipetsk_admin_development
+
+test:
+  <<: *common
+  database: lipetsk_admin_test
+
+
+#production:
+#  adapter: postgresql
+#  encoding: unicode
+#  database: lipetsk_admin_production
+#  pool: 5
+#  username: lipetsk_admin
+#  password:

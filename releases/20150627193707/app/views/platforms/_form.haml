@@ -1,0 +1,69 @@
+= form_for @platform, html: {multipart: true, class: 'map-selector form-horizontal hotkeys picture-list large-form double-submit-protector platform-form' , 'data-map-selector' => 'area', 'data-namespace' => 'platform'} do |f|
+  %fieldset
+    %legend
+      = defined?(legend) && legend
+    = render_notice
+    = error_explanation @platform
+    .form-group
+      .control-label
+        = submit_btn f
+      .controls
+
+    = form_group f, [:municipality, :municipality_id], :select, options_from_collection_for_select(@municipalities, :id, :name,:selected => @platform.municipality_id), {:include_blank => true}, {:class => "simple-chosen", "data-placeholder" => t("helpers.placeholder.default")}
+    = form_group f, :name, :text_field
+    = form_group f, :key, :text_field
+    = owner_select f
+    = map_field f
+    = form_group f, :platform_type, :text_area
+    = form_group f, :description, :text_area
+    = form_group f, :company_id, :select, options_from_collection_for_select(@companies, :id, :name, :selected => f.object.send(:company_id)), {:include_blank => true}, {:class => 'simple-chosen', "data-placeholder" => t("helpers.placeholder.default")}
+    = form_group f, :company_text, :text_area
+    = form_group f, :legal_address, :text_area
+    = form_group f, :contact_person, :text_field
+    = form_group f, :contact_person_email, :text_field
+    = form_group f, :contact_person_phone, :text_field
+    = form_group f, :address, :text_area
+    = form_group f, :area, :text_field, :class => "numeric"
+    = form_group f, [:ownership_type, :ownership_type_code], :select, options_from_collection_for_select(@ownership_types, :code, :name,:selected => @platform.ownership_type_code), {}, {:class => "simple-chosen",  "data-placeholder" => t("helpers.placeholder.default")}
+    = form_group f, :expandable, :text_field
+    = form_group f, :nearby_facilities, :text_area
+    = form_group f, :nearest_houses_distance, :text_field, :class => "numeric"
+    = form_group f, [:land_category, :land_category_code], :select, options_from_collection_for_select(@land_categories, :code, :name,:selected => @platform.land_category_code), {}, {:class => "simple-chosen", "data-placeholder" => t("helpers.placeholder.default")}
+    = form_group f, :permitted_uses, :text_area
+    = form_group f, :limitations, :text_area
+    = form_group f, :government_agency_providing_land, :text_area
+    = form_group f, :cadastral_number, :text_field
+    = form_group f, :sanitary_protection_zones, :text_area
+    = form_group f, :transportation_driveways, :text_area
+
+    = form_group f, :region_distance, :text_field, :class => "numeric"
+    = form_group f, :city_distance, :text_field, :class => "numeric"
+    = form_group f, :road_distance, :text_field, :class => "numeric"
+    = form_group f, :airport_distance, :text_field, :class => "numeric"
+    = form_group f, :seaport_distance, :text_field, :class => "numeric"
+
+    = form_group f, :gas, :select, bool_select_array, {:include_blank => true}, :class => 'simple-chosen', 'data-placeholder' => t('helpers.placeholder.default')
+    = form_group f, :gas_details, :text_field
+    = form_group f, :electricity, :select, bool_select_array, {:include_blank => true}, :class => 'simple-chosen', 'data-placeholder' => t('helpers.placeholder.default')
+    = form_group f, :electricity_details, :text_field
+    = form_group f, :heating, :select, bool_select_array, {:include_blank => true}, :class => 'simple-chosen', 'data-placeholder' => t('helpers.placeholder.default')
+    = form_group f, :heating_details, :text_field
+    = form_group f, :water, :select, bool_select_array, {:include_blank => true}, :class => 'simple-chosen', 'data-placeholder' => t('helpers.placeholder.default')
+    = form_group f, :water_details, :text_field
+    = form_group f, :sewerage, :select, bool_select_array, {:include_blank => true}, :class => 'simple-chosen', 'data-placeholder' => t('helpers.placeholder.default')
+    = form_group f, :sewerage_details, :text_field
+    = form_group f, :sewage_plants, :select, bool_select_array, {:include_blank => true}, :class => 'simple-chosen', 'data-placeholder' => t('helpers.placeholder.default')
+    = form_group f, :sewage_plants_details, :text_field
+    = form_group f, :boiler_system, :select, bool_select_array, {:include_blank => true}, :class => 'simple-chosen', 'data-placeholder' => t('helpers.placeholder.default')
+    = form_group f, :boiler_system_details, :text_field
+
+    = hidden_field_tag "platform[buildings][_]", nil
+    .custom-field-container.form-group{:class =>"brownfield","data-type" => "switched"}
+      = render_cell :platform, :buildings, :buildings => @platform.buildings
+      .btn.btn-success.btn-add= t("buttons.add_building")
+
+    = render 'gallery_pictures/pictures', form: f
+    = form_check_box f, :demo_mode
+    .form-actions
+      = submit_btn f
+      = cancel_btn f

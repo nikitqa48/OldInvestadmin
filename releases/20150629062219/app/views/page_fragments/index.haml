@@ -1,0 +1,12 @@
+.page-fragments
+  %h2= t('.title')
+  %table.table.table-striped.table-bordered.table-condensed
+    %thead
+      %th= t('.name')
+      %th{:class => 'actions-column'}= t('.actions')
+
+    - @page_fragments.each do |page_fragment|
+      %tr
+        %td= page_fragment.short_name
+        %td.under-pressure
+          = link_to t('buttons.edit'), edit_page_fragment_url(page_fragment), :class => 'btn btn-mini'

@@ -1,0 +1,17 @@
+%table.table.table-bordered
+  %thead
+    %th= t('activerecord.attributes.company.name')
+    %th
+  %tbody
+    - collection.each do |object|
+      %tr
+        %td= object.name
+        %td.under-pressure-td
+          - if can? :update, object
+            = link_to route(:edit, object), class: 'btn btn-primary btn-xs', title: t('buttons.edit') do
+              %i.icon-pencil.icon-white
+            = button_fix
+          - if can? :destroy, object
+            = link_to route(:destroy, object), method: :delete, class: 'btn btn-xs btn-danger', title: t('buttons.delete'), confirm: t('buttons.confirm') do
+              %i.icon-trash.icon-white
+= will_paginate collection

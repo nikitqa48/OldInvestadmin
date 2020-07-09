@@ -1,0 +1,13 @@
+en:
+  page_fragments:
+    apply_modal:
+      name: Contents pop-up "I have a project"
+    apply_contacts:
+      name: Contacts for "I have project"
+    footer_contacts:
+      name: Footer contacts
+    passport:
+      name: Passport
+
+
+

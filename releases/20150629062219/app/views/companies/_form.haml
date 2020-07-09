@@ -1,0 +1,21 @@
+= form_for @company, :html => {:multipart => true,:class => 'map-selector form-horizontal hotkeys picture-list large-form double-submit-protector', 'data-namespace' => 'company', 'data-map-selector' => 'point'} do |f|
+  %fieldset
+    %legend
+      = defined?(legend) && legend
+    = render_notice
+    = error_explanation @company
+    .form-group
+      .control-label
+        = f.submit @company.new_record? ? t('buttons.create') : t('buttons.save'), :class => 'btn btn-primary btn-with-tooltip','data-original-title' => t('messages.tooltips.save'),'data-placement' => 'bottom'
+      .controls
+    = form_group_select f, :activity_sphere_code, @activity_spheres
+    = owner_select f
+    = form_group f, :name, :text_field
+    = form_group f, :description, :text_area
+    = form_group f, :nomenclature, :text_area
+    = form_check_box f, :demo_mode
+    = map_field f, true
+    = render 'gallery_pictures/pictures', form: f
+    .form-actions
+      = f.submit @company.new_record? ? t('buttons.create') : t('buttons.save'), :class => 'btn btn-primary btn-with-tooltip','data-original-title' => t('messages.tooltips.save'),'data-placement' => 'bottom'
+      = link_to t('buttons.cancel'), companies_path, :class => 'btn'

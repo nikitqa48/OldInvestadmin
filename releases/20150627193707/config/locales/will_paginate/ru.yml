@@ -1,0 +1,7 @@
+ru:
+  will_paginate:
+    next_label: Дальше →
+    page_gap: ! '&hellip;'
+    previous_label: ← Назад
+    followed_next_label: →
+    followed_previous_label: ←

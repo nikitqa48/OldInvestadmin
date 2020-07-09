@@ -1,0 +1,25 @@
+en:
+  messages:
+    switch_user: Switch user
+    record_updated: Record updated
+    record_created: Record created
+    download: Download
+    file_not_load: File is loaded
+    mail_from:
+      subject: "Message from the site of the investment map of Lipetsk oblast"
+      request_to: "Participation in the program"
+      email: "E-mail"
+      organization: "Organization"
+      full_name: "Full name"
+    tooltips:
+      save: or CTRL+S
+    new: "Creating a  \"%{name}\""
+    edit: "Editing a \"%{name}\""
+    user_created: "User created successfully"
+    user_created_and_send_message: "User created successfully, details sent to your email %{email} "
+    record_edit: Editing a record
+    record_new: Create a record
+    record_not_found: Record not found
+  errors:
+    messages:
+      access_denied: "You do not have permission to access the requested page."

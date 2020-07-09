@@ -1,0 +1,50 @@
+= form_for @project, html: {multipart: true, class: 'map-selector form-horizontal hotkeys picture-list large-form double-submit-protector', 'data-map-selector' => 'not-area'} do |f|
+  %fieldset
+    %legend
+      = defined?(legend) && legend
+    = render_notice
+    = error_explanation @project
+    .form-group
+      .control-label
+        = f.submit @project.new_record? ? t('buttons.create') : t('buttons.save'), class: 'btn btn-primary btn-with-tooltip', 'data-original-title' => t('messages.tooltips.save'), 'data-placement' => 'bottom'
+      .controls
+    = form_group f, :name, :text_field
+    = form_group f, :key, :text_field
+    = form_group f, :project_type_id, :select, options_from_collection_for_select(@project_types, :id, :name, selected: f.object.send(:project_type_id)),
+       {include_blank: true}, {class: 'simple-chosen', 'data-placeholder' => t('helpers.placeholder.default')}
+    = owner_select f
+    = map_field f, true
+    = form_group f, :territory, :text_area
+    = form_group f, :territory_description, :text_area
+    = form_group f, :municipality_id, :select, options_from_collection_for_select(@municipalities, :id, :name, :selected => f.object.send(:municipality_id)),
+       {:include_blank => true}, {:class => 'simple-chosen', "data-placeholder" => t("helpers.placeholder.default")}
+
+    = form_group f, :company_id, :select, options_from_collection_for_select(@companies, :id, :name, :selected => f.object.send(:company_id)),
+       {:include_blank => true}, {:class => 'simple-chosen', "data-placeholder" => t("helpers.placeholder.default")}
+    = form_group_select f, :economic_activity_code, @economic_activities
+    = form_group f, :description, :text_area
+    = form_group f, :availability_of_raw, :text_area
+    = form_group f, :planned_production, :text_area
+    = form_group f, :consumer_market_description, :text_area
+    = form_group f, :readiness, :text_area
+    = form_group f, :financial_evaluation, :text_area
+    = form_group f, :common_price, :text_field, class: 'numeric'
+    = form_group f, :own_investments, :text_field, class: 'integer', hint: true
+    = form_group f, :required_investments, :text_field, class: 'integer', hint: true
+    = form_group f, :key_performance_indicators, :text_area
+    = form_group f, :npv, :text_field, class: 'integer'
+    = form_group f, :irr, :text_field, class: 'integer'
+    = form_group f, :pi, :text_field, class: 'integer'
+    = form_group f, :payback_period, :text_field, class: 'integer', hint: true
+    = form_group f, :social_significance, :text_area
+    = form_group f, :jobs, :text_field, class: 'integer'
+    = form_group f, :budget_efficiency, :text_area, class: 'integer'
+    = form_group f, :investment_return_forms, :text_area, hint: true
+    = form_group f, :additional_info, :text_area
+    = form_check_box f, :demo_mode
+
+    = render 'gallery_pictures/pictures', form: f
+
+    .form-actions
+      = submit_btn f
+      = cancel_btn f

@@ -1,0 +1,28 @@
+= form_for [:infrastructure, @point_of_interest], :html => {:multipart => true, :class => "map-selector form-horizontal hotkeys large-form double-submit-protector",
+  "data-map-selector" => "point", "data-namespace" => "point_of_interest"} do |f|
+  %fieldset
+    %legend
+      = defined?(legend) && legend
+    = render_notice
+    = error_explanation @point_of_interest
+
+    .form-group
+      .control-label
+        = submit_btn f
+
+    = form_group f, :name, :text_field
+    = owner_select f
+    = form_group f, :description, :text_area
+
+    = form_group f, [:point_of_interest_type, :point_of_interest_type_code], :select,
+      options_from_collection_for_select(@point_of_interest_types, :code,
+      :name, :selected => @point_of_interest.point_of_interest_type_code), {},
+      {:class => "simple-chosen", "data-placeholder" => t("helpers.placeholder.default")}
+
+    = map_field f
+
+    = render 'gallery_pictures/pictures', form: f
+
+    .form-actions
+      = submit_btn f
+      = cancel_btn f

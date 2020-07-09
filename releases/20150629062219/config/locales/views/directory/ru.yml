@@ -1,0 +1,75 @@
+ru:
+  directory:
+    activity_spheres:
+      index:
+        title: Сферы деятельности предприятий
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Создание сферы деятельности предприятий
+
+    economic_activities:
+      index:
+        title: Экономические деятельности
+      edit:
+        title: Редактирование экономической деятельности
+      new:
+        title: Создание экономической деятельности
+
+    land_categories:
+      index:
+        title: Категории земель
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Категории земель
+
+    ownership_types:
+      index:
+        title: Типы собственности
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Создание собственности
+
+    project_types:
+      index:
+        title: Типы проекта
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Создание типа проекта
+
+    natural_resource_types:
+      index:
+        title: Типы натуральных ресурсов
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Добавить тип
+
+    special_economic_zone_types:
+      index:
+        title: Типы особых экономических зон
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Добавить тип
+
+
+    development_plan_types:
+      index:
+        title: Типы планируемых инфраструктур
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Добавить тип
+
+
+    point_of_interest_types:
+      index:
+        title: Виды точек интереса
+      edit:
+        title: "Редактирование: %{name}"
+      new:
+        title: Добавить вид

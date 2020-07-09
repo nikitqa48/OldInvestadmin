@@ -1,0 +1,10 @@
+%h3.pull-left= t('navigation.users')
+= render_notice
+%span.top-panel-actions
+  - if can? :create, User
+    = link_to new_user_path, class: 'btn btn-primary btn-right' do
+      %i.icon-plus.icon-white
+      = t('buttons.add')
+.clearfix
+.users-filter-target
+  = render 'list', users: @users

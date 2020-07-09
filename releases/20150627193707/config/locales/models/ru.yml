@@ -1,0 +1,326 @@
+ru:
+  activerecord:
+    models:
+      user: Пользователи
+      project_type: Типы проекта
+
+    attributes:
+      user:
+        name: Контактное лицо
+        email: Email
+        phone: Телефон
+        login: Логин
+        password: Пароль
+        password_confirmation: Подтверждение пароля
+        role: Роль пользователя
+        roles:
+          admin: Администратор
+          manager: Менеджер
+        remember_me: Запомнить меня?
+
+      municipality:
+        name: Название
+        demo_mode: Включить в демо-режим
+        key: Ключ
+        coords: Отметка на карте
+        description: Описание
+        owner_id: Владелец
+        area: Площадь, га
+        density: Плотность населения, чел./км²
+        population: Население
+        chief: Глава
+        status: Статус
+        based: Основан
+        company: Предприятия
+        average_wage: Cредняя заработная плата МО
+        number_of_unemployed: Численность безработных в МО, чел.
+        registered_unemployment: Уровень зарегистрированной безработицы по МО, %
+        distance_to_petropavlovsk_kamchatsky: Расстояние до Липецка, км.
+        distance_to_moscow: Расстояние до Москвы, км.
+        distance_to_nizhny_novgorod: Расстояние до Нижнего Новгорода, км.
+        contacts: Контактная информация
+
+      platform:
+        name: Название
+        key: Ключ
+        demo_mode: Включить в демо-режим
+        owner_id: Владелец
+        description: Описание
+        area: Площадь территории, га
+        ownership_type: Тип собственности
+        term_code: Условия предоставления инвестиционной площадки инвестору
+        right_form: Условия предоставления инвестиционной площадки инвестору
+        land_category: Категория земель
+        settlement: Населенный пункт
+        investment_direction: Направление инвестирования
+        city_distance: Удаленность от ближайшего административного центра, км
+        railway: Наличие ж/д путей
+        road: Автомобильная дорога
+        contact_info: Контактное лицо
+        phone: Телефон
+        email: E-mail
+        expandable: Возможность расширения до, га
+        municipality: Муниципалитет
+        municipality_id: Муниципалитет
+        platform_type: Тип инвестплощадки
+        ownership_type: Форма собственности на землю
+        demo_mode: Включить в демо режим
+        coords: Координаты
+        territory_type_code: Тип территории
+        legal_address: Юридический адрес
+        company_id: Организация
+        contact_person: Контактное лицо
+        contact_person_email: Эл. почта контактного лица
+        contact_person_phone: Телефон контактного лица
+        address: Адрес места расположения площадки
+        land_ownership_type: Вид права владения землей
+        nearby_facilities: Близлежащие производственные объекты и расстояние до них
+        nearest_houses_distance: Расстояние до ближайших жилых домов (км)
+        limitations: Ограничения (обременения)
+        government_agency_providing_land: Орган, осуществляющий предоставление земельного участка
+        cadastral_number: Кадастровый номер
+        sanitary_protection_zones: Наличие санитарно-защитных/охранных зон
+        transportation_driveways: Наличие транспортных подъездных путей
+        company_text: Предприятие (организация) - владелец
+        permitted_uses: Предполагаемое разрешенное использование
+        region_distance: Удаленность участка от центра другого ближайшего субъекта Российской Федерации, км
+        road_distance: Удаленность участка от ближайшей автодороги, км
+        airport_distance: Удаленность участка от ближайшего аэропорта, км
+        seaport_distance: Удаленность участка от ближайшего морского порта, км
+
+        building:
+          name: Название строения
+          appointment: Назначение
+          floors: Этажность
+          main_parameters: "Основные параметры(длина, ширина, высота, шаг колонн)"
+          gas: Газ
+          electricity: Электроснабжение
+          watersupply: Водоснабжение
+          canalization: Канализация
+          sewage_treatment_plant: Очистные сооружения
+          heating: Отопление
+          railway: Ж/Д ветка
+          cars: Автотранспорт
+
+        gas: Газ
+        gas_details: Газ (описание)
+        electricity: Электроэнергия
+        electricity_details: Электроэнергия (описание)
+        water: Водоснабжение
+        water_details: Водоснабжение (описание)
+        sewerage: Канализация
+        sewerage_details: Канализация (описание)
+        sewage_plants: Очистные сооружения
+        sewage_plants_details: Очистные сооружения (описание)
+        heating: Отопление
+        heating_details: Отопление (описание)
+        boiler_system: Котельные установки
+        boiler_system_details: Котельные установки (описание)
+
+      development_plan:
+        name: Название
+        code: Код
+        description: Описание
+        owner_id: Владелец
+      project:
+        name: Название
+        description: Описание
+        economic_activity_code: Вид экономической деятельности (по ОКВЭД)
+        coords: Координаты
+        territory: Месторасположение (Территория)
+        territory_description: Описание месторасположения
+        availability_of_raw: Обеспечение сырьем (материалами)
+        planned_production: Планируемая продукция (вводимые мощности)
+        consumer_market_description: Описание рынка потребителей
+        readiness: Степень готовности и экспертиза проекта
+        financial_evaluation: Финансовая оценка проекта
+        common_price: Общая стоимость проекта (в млн. руб.)
+        own_investments: Собственные вкладываемые средства (в млн. руб.)
+        required_investments: Запрашиваемые инвестиции (в млн. руб.)
+        key_performance_indicators: Основные показатели эффективности проекта
+        npv: Чистая приведенная стоимость (NPV), млн. руб.
+        irr: Внутренняя норма прибыли (IRR), %
+        pi: Индекс рентабельности (PI)
+        payback_period: Срок окупаемости, лет
+        social_significance: Социальная значимость проекта
+        jobs: Количество создаваемых рабочих мест
+        budget_efficiency: Бюджетная эффективность проекта
+        investment_return_forms: Формы возврата инвестиций
+        additional_info: Дополнительная информация
+        project_type_id: Тип проекта
+        company_id: Предприятие
+        municipality_id: Муниципальное образование
+        demo_mode: Включить в демо-режим
+        business_project: Бизнес-проект
+        key: Ключ
+        owner_id: Владелец
+        _hint:
+          own_investments: Укажите собственные вкладываемые средства в млн. руб
+          required_investments: Укажите запрашиваемые инвестиции в млн. руб
+          payback_period: Укажите значение в количестве лет
+          investment_return_forms: Опишите формы возврата инвестиций
+
+
+      directory:
+        code: Код
+        name: Название
+        icon: Иконка
+        number: Номер
+
+      company:
+        demo_mode: Включить в демо-режим
+        name: Название
+        description: Описание
+        municipality: Муниципалитеты
+        activity_sphere_code: Сфера деятельности
+        nomenclature: Номенклатура выпускаемой продукции
+
+      city:
+        demo_mode: Включить в демо-режим
+        name: Название
+        key: Ключ
+        coords: Отметка на карте
+        description: Описание
+        population: Численность населения
+        area: Площадь территории, га
+        based: Основан, год
+        chief: Глава
+        site: Сайт
+        density: Плотность населения
+        subdivisions: Внутреннее деление
+        economically_active_population: Экономически активное население
+
+      special_economic_zone:
+        name: Название
+        sez_type: Тип ОЭЗ (старый)
+        municipality: Муниципальный район
+        company: Предприятие (организация)
+        special_economic_zone_type: Тип ОЭЗ
+        special_economic_zone_type_code: Тип ОЭЗ
+        contact_person: Контактное лицо
+        contact_phone: Телефон контактного лица
+        contact_email: Эл. почта
+        address: Адрес места расположения площадки
+        free_square: Свободные площади (кв. м)
+        residents: Предприятия-резиденты
+        authorized_activities: Разрешенные виды деятельности
+        protection_zones: Cанитарно-защитные или охранные зоны
+        transport_driveways: Наличие транспортных подъездных путей
+        resident_privileges: Льготы и преференции для резидентов ОЭЗ
+        central_region_distance: Удаленность зоны от центра субъекта Российской Федерации, км
+        city_distance: Удаленность от ближайшего города, км
+        road_distance: Удаленность от ближайшей автодороги, км
+        airport_distance: Удаленность от ближайшего аэропорта, км
+        seaport_distance: Удаленность от ближайшего морского порта, км
+        demo_mode: Включить в демо-режим
+        gas: Газ
+        gas_details: Указать мощность в куб. м/час
+        heating: Отопление
+        heating_details: Указать мощность в Гкал/час
+        electricity: Электроэнергия
+        electricity_details: Указать мощность в  кВт/час
+        water: Водоснабжение
+        water_details: Указать мощность в куб. м/год
+        sewerage: Канализация
+        sewerage_details: Канализация (описание)
+        sewage_plants: Очистные сооружения
+        sewage_plants_details: Очистные сооружения (описание)
+        boiler_system: Котельные установки
+        boiler_system_details: Котельные установки (описание)
+
+      cluster:
+        name: Название
+        municipality: Муниципальный район
+        description: Описание
+        company: Предприятие (организация)
+        contact_person: Контактное лицо
+        contact_phone: Телефон контактного лица
+        contact_email: Эл. почта
+        address: Адрес места расположения площадки
+        free_square: Свободные площади (кв. м)
+        residents: Предприятия-резиденты
+        authorized_activities: Разрешенные виды деятельности
+        protection_zones: Cанитарно-защитные или охранные зоны
+        transport_driveways: Наличие транспортных подъездных путей
+        resident_privileges: Льготы и преференции для резидентов ОЭЗ
+        central_region_distance: Удаленность зоны от центра субъекта Российской Федерации, км
+        city_distance: Удаленность от ближайшего города, км
+        road_distance: Удаленность от ближайшей автодороги, км
+        airport_distance: Удаленность от ближайшего аэропорта, км
+        seaport_distance: Удаленность от ближайшего морского порта, км
+        demo_mode: Включить в демо-режим
+        gas: Газ
+        gas_details: Указать мощность в куб. м/час
+        heating: Отопление
+        heating_details: Указать мощность в Гкал/час
+        electricity: Электроэнергия
+        electricity_details: Указать мощность в  кВт/час
+        water: Водоснабжение
+        water_details: Указать мощность в куб. м/год
+        sewerage: Канализация
+        sewerage_details: Канализация (описание)
+        sewage_plants: Очистные сооружения
+        sewage_plants_details: Очистные сооружения (описание)
+        boiler_system: Котельные установки
+        boiler_system_details: Котельные установки (описание)
+
+      industrial_park:
+        name: Название
+        municipality: Муниципальный район
+        park_type: Тип площадки
+        description: Описание площадки
+        company: Предприятие (организация)
+        legal_address: Юридический адрес
+        contact_person: Контактное лицо
+        contact_phone: Телефон контактного лица
+        contact_email: Эл. почта
+        address: Адрес места расположения площадки
+        free_square: Свободные площади (кв. м)
+        residents: Предприятия-резиденты
+        nearest_houses_distance: Расстояние до ближайших жилых домов
+        protection_zones: Санитарно-защитные/охранные зоны
+        transport_driveways: Наличие транспортных подъездных путей
+        services: Услуги
+        authorized_activities: Разрешенные виды деятельности
+        central_region_distance: Удаленность площадки от центра субъекта Российской Федерации, км
+        another_region_distance: Удаленность площадки от центра другого ближайшего субъекта Российской Федерации
+        city_distance: Удаленность от ближайшего города, км
+        road_distance: Удаленность от ближайшей автодороги, км
+        airport_distance: Удаленность от ближайшего аэропорта, км
+        seaport_distance: Удаленность от ближайшего морского порта, км
+        demo_mode: Включить в демо-режим
+        gas: Газ
+        gas_details: Указать мощность в куб. м/час
+        heating: Отопление
+        heating_details: Указать мощность в Гкал/час
+        electricity: Электроэнергия
+        electricity_details: Указать мощность в  кВт/час
+        water: Водоснабжение
+        water_details: Указать мощность в куб. м/год
+        sewerage: Канализация
+        sewerage_details: Канализация (описание)
+        sewage_plants: Очистные сооружения
+        sewage_plants_details: Очистные сооружения (описание)
+        boiler_system: Котельные установки
+        boiler_system_details: Котельные установки (описание)
+
+      natural_resource:
+        coords: Отметка на карте
+        description: Описание
+        natural_resource_type_code: Тип природного ресурса
+        owner_id: Владелец
+        coords: Координаты
+        name: Наименование месторождения
+        content: Содержание полезного компонента
+        reserve: Общие балансовые запасы
+        licence: Наличие лицензии
+        additional_information: Дополнительная информация
+
+      company:
+        coords: Отметка на карте
+        description: Описание
+        owner_id: Владелец
+        coords: Координаты
+        name: Наименование месторождения
+        activity_sphere_code: Сфера деятельности
+        nomenclature: Номенклатура выпускаемой продукции

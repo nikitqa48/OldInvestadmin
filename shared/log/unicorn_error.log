@@ -1,0 +1,362 @@
+I, [2015-06-29T09:27:34.033262 #21380]  INFO -- : Refreshing Gem list
+I, [2015-06-29T09:27:43.587875 #21380]  INFO -- : listening on addr=/home/invest/repository/admin/shared/unicorn.sock fd=12
+I, [2015-06-29T09:27:43.605393 #21380]  INFO -- : master process ready
+I, [2015-06-29T09:27:43.607459 #21389]  INFO -- : worker=0 ready
+I, [2015-06-29T09:27:43.613228 #21395]  INFO -- : worker=2 ready
+I, [2015-06-29T09:27:43.621650 #21392]  INFO -- : worker=1 ready
+I, [2015-06-29T09:27:43.629547 #21398]  INFO -- : worker=3 ready
+I, [2015-09-01T15:36:35.518037 #23329]  INFO -- : Refreshing Gem list
+I, [2015-09-01T15:36:45.455375 #23329]  INFO -- : unlinking existing socket=/home/invest/repository/admin/shared/unicorn.sock
+I, [2015-09-01T15:36:45.455627 #23329]  INFO -- : listening on addr=/home/invest/repository/admin/shared/unicorn.sock fd=12
+I, [2015-09-01T15:36:45.470526 #23329]  INFO -- : master process ready
+I, [2015-09-01T15:36:45.480871 #23342]  INFO -- : worker=1 ready
+I, [2015-09-01T15:36:45.483687 #23348]  INFO -- : worker=3 ready
+I, [2015-09-01T15:36:45.487551 #23345]  INFO -- : worker=2 ready
+I, [2015-09-01T15:36:45.487518 #23339]  INFO -- : worker=0 ready
+I, [2015-09-01T16:02:03.784376 #23329]  INFO -- : reaped #<Process::Status: pid 23339 exit 0> worker=0
+I, [2015-09-01T16:02:03.784665 #23329]  INFO -- : reaped #<Process::Status: pid 23342 exit 0> worker=1
+I, [2015-09-01T16:02:03.784809 #23329]  INFO -- : reaped #<Process::Status: pid 23345 exit 0> worker=2
+I, [2015-09-01T16:02:03.784951 #23329]  INFO -- : reaped #<Process::Status: pid 23348 exit 0> worker=3
+I, [2015-09-01T16:02:03.785298 #23329]  INFO -- : master complete
+I, [2015-09-01T16:04:14.725836 #2443]  INFO -- : Refreshing Gem list
+I, [2015-09-01T16:04:28.714116 #2443]  INFO -- : unlinking existing socket=/home/invest/repository/admin/shared/unicorn.sock
+I, [2015-09-01T16:04:28.716064 #2443]  INFO -- : listening on addr=/home/invest/repository/admin/shared/unicorn.sock fd=12
+I, [2015-09-01T16:04:28.725168 #2443]  INFO -- : master process ready
+I, [2015-09-01T16:04:28.730983 #2454]  INFO -- : worker=1 ready
+I, [2015-09-01T16:04:28.730983 #2451]  INFO -- : worker=0 ready
+I, [2015-09-01T16:04:28.734077 #2457]  INFO -- : worker=2 ready
+I, [2015-09-01T16:04:28.740071 #2460]  INFO -- : worker=3 ready
+I, [2015-09-01T16:05:35.661240 #2443]  INFO -- : reaped #<Process::Status: pid 2451 exit 0> worker=0
+I, [2015-09-01T16:05:35.661645 #2443]  INFO -- : reaped #<Process::Status: pid 2454 exit 0> worker=1
+I, [2015-09-01T16:05:35.661817 #2443]  INFO -- : reaped #<Process::Status: pid 2457 exit 0> worker=2
+I, [2015-09-01T16:05:35.661961 #2443]  INFO -- : reaped #<Process::Status: pid 2460 exit 0> worker=3
+I, [2015-09-01T16:05:35.662198 #2443]  INFO -- : master complete
+I, [2015-09-01T16:06:45.771455 #2396]  INFO -- : Refreshing Gem list
+I, [2015-09-01T16:07:00.096007 #2396]  INFO -- : unlinking existing socket=/home/invest/repository/admin/shared/unicorn.sock
+I, [2015-09-01T16:07:00.098021 #2396]  INFO -- : listening on addr=/home/invest/repository/admin/shared/unicorn.sock fd=12
+I, [2015-09-01T16:07:00.106593 #2396]  INFO -- : master process ready
+I, [2015-09-01T16:07:00.115874 #2413]  INFO -- : worker=3 ready
+I, [2015-09-01T16:07:00.115875 #2407]  INFO -- : worker=1 ready
+I, [2015-09-01T16:07:00.120000 #2404]  INFO -- : worker=0 ready
+I, [2015-09-01T16:07:00.122392 #2410]  INFO -- : worker=2 ready
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+D, [2015-11-30T19:13:41.226561 #2396] DEBUG -- : waiting 16.0s after suspend/hibernation
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+D, [2015-12-03T19:15:23.635719 #2396] DEBUG -- : waiting 16.0s after suspend/hibernation
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+D, [2016-01-31T19:26:49.173521 #2396] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2016-02-05T19:10:02.649719 #2396] DEBUG -- : waiting 16.0s after suspend/hibernation
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+D, [2016-03-28T22:10:16.794285 #2396] DEBUG -- : waiting 16.0s after suspend/hibernation
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+D, [2016-04-25T21:48:40.120645 #2396] DEBUG -- : waiting 16.0s after suspend/hibernation
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+D, [2016-06-05T20:02:16.039236 #2396] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2016-06-17T10:28:16.412238 #2396] DEBUG -- : waiting 16.0s after suspend/hibernation
+I, [2016-08-02T12:03:16.047519 #2396]  INFO -- : reaped #<Process::Status: pid 2404 exit 0> worker=0
+I, [2016-08-02T12:03:16.047795 #2396]  INFO -- : reaped #<Process::Status: pid 2407 exit 0> worker=1
+I, [2016-08-02T12:03:16.047880 #2396]  INFO -- : reaped #<Process::Status: pid 2410 exit 0> worker=2
+I, [2016-08-02T12:03:16.047948 #2396]  INFO -- : reaped #<Process::Status: pid 2413 exit 0> worker=3
+I, [2016-08-02T12:03:16.048179 #2396]  INFO -- : master complete
+I, [2016-08-03T10:00:48.550428 #1700]  INFO -- : Refreshing Gem list
+I, [2016-08-03T10:01:01.500228 #1700]  INFO -- : unlinking existing socket=/home/invest/repository/admin/shared/unicorn.sock
+I, [2016-08-03T10:01:01.501774 #1700]  INFO -- : listening on addr=/home/invest/repository/admin/shared/unicorn.sock fd=12
+I, [2016-08-03T10:01:01.512877 #1700]  INFO -- : master process ready
+I, [2016-08-03T10:01:01.521547 #1710]  INFO -- : worker=1 ready
+I, [2016-08-03T10:01:01.522363 #1716]  INFO -- : worker=3 ready
+I, [2016-08-03T10:01:01.523816 #1707]  INFO -- : worker=0 ready
+I, [2016-08-03T10:01:01.527525 #1713]  INFO -- : worker=2 ready
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+D, [2016-08-13T20:30:02.999737 #1700] DEBUG -- : waiting 16.0s after suspend/hibernation
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+D, [2016-09-26T21:34:16.756361 #1700] DEBUG -- : waiting 16.0s after suspend/hibernation
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+D, [2016-11-17T17:38:16.847552 #1700] DEBUG -- : waiting 16.0s after suspend/hibernation
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+D, [2016-12-10T15:24:23.497782 #1700] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-07T01:57:35.348511 #1700] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-07T05:31:24.992702 #1700] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-01-07T05:45:18.742952 #1700] DEBUG -- : waiting 16.0s after suspend/hibernation
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+I, [2017-01-26T00:27:34.657355 #1678]  INFO -- : Refreshing Gem list
+I, [2017-01-26T00:27:49.593824 #1678]  INFO -- : unlinking existing socket=/home/invest/repository/admin/shared/unicorn.sock
+I, [2017-01-26T00:27:49.603812 #1678]  INFO -- : listening on addr=/home/invest/repository/admin/shared/unicorn.sock fd=12
+I, [2017-01-26T00:27:49.616301 #1678]  INFO -- : master process ready
+I, [2017-01-26T00:27:49.640776 #1688]  INFO -- : worker=1 ready
+I, [2017-01-26T00:27:49.641991 #1694]  INFO -- : worker=3 ready
+I, [2017-01-26T00:27:49.645349 #1685]  INFO -- : worker=0 ready
+I, [2017-01-26T00:27:49.645349 #1691]  INFO -- : worker=2 ready
+I, [2017-01-26T09:34:41.673283 #1678]  INFO -- : reloading config_file=/home/invest/repository/admin/current/config/unicorn.rb
+I, [2017-01-26T09:34:41.690578 #1678]  INFO -- : Refreshing Gem list
+I, [2017-01-26T09:34:41.692512 #1678]  INFO -- : done reloading config_file=/home/invest/repository/admin/current/config/unicorn.rb
+I, [2017-01-26T09:34:41.846937 #1678]  INFO -- : reaped #<Process::Status: pid 1688 exit 0> worker=1
+I, [2017-01-26T09:34:41.869439 #5182]  INFO -- : worker=1 ready
+I, [2017-01-26T09:34:41.869743 #1678]  INFO -- : reaped #<Process::Status: pid 1685 exit 0> worker=0
+I, [2017-01-26T09:34:41.869937 #1678]  INFO -- : reaped #<Process::Status: pid 1691 exit 0> worker=2
+I, [2017-01-26T09:34:41.885362 #5185]  INFO -- : worker=0 ready
+I, [2017-01-26T09:34:41.885482 #5188]  INFO -- : worker=2 ready
+I, [2017-01-26T09:34:41.895302 #1678]  INFO -- : reaped #<Process::Status: pid 1694 exit 0> worker=3
+I, [2017-01-26T09:34:41.911195 #5191]  INFO -- : worker=3 ready
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+D, [2017-03-01T11:11:43.029741 #1678] DEBUG -- : waiting 16.0s after suspend/hibernation
+I, [2017-03-24T08:42:06.951741 #2466]  INFO -- : Refreshing Gem list
+I, [2017-03-24T08:42:20.596862 #2466]  INFO -- : unlinking existing socket=/home/invest/repository/admin/shared/unicorn.sock
+I, [2017-03-24T08:42:20.598835 #2466]  INFO -- : listening on addr=/home/invest/repository/admin/shared/unicorn.sock fd=12
+I, [2017-03-24T08:42:20.607395 #2466]  INFO -- : master process ready
+I, [2017-03-24T08:42:20.632220 #2484]  INFO -- : worker=0 ready
+I, [2017-03-24T08:42:20.638483 #2487]  INFO -- : worker=1 ready
+I, [2017-03-24T08:42:20.638612 #2493]  INFO -- : worker=3 ready
+I, [2017-03-24T08:42:20.645383 #2490]  INFO -- : worker=2 ready
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+D, [2017-04-03T18:02:02.829590 #2466] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-04-07T18:18:40.748926 #2466] DEBUG -- : waiting 16.0s after suspend/hibernation
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+D, [2017-04-19T18:25:30.865833 #2466] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-04-26T18:07:26.132760 #2466] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-05-14T18:05:57.177260 #2466] DEBUG -- : waiting 16.0s after suspend/hibernation
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+I, [2017-05-31T21:23:15.855679 #2486]  INFO -- : Refreshing Gem list
+I, [2017-05-31T21:23:32.896274 #2486]  INFO -- : unlinking existing socket=/home/invest/repository/admin/shared/unicorn.sock
+I, [2017-05-31T21:23:32.898905 #2486]  INFO -- : listening on addr=/home/invest/repository/admin/shared/unicorn.sock fd=12
+I, [2017-05-31T21:23:32.907055 #2486]  INFO -- : master process ready
+I, [2017-05-31T21:23:32.927787 #2496]  INFO -- : worker=0 ready
+I, [2017-05-31T21:23:32.931628 #2502]  INFO -- : worker=2 ready
+I, [2017-05-31T21:23:32.939812 #2499]  INFO -- : worker=1 ready
+I, [2017-05-31T21:23:32.941507 #2505]  INFO -- : worker=3 ready
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+D, [2017-07-21T12:17:19.811465 #2486] DEBUG -- : waiting 16.0s after suspend/hibernation
+I, [2017-07-28T14:32:46.791504 #2486]  INFO -- : reaped #<Process::Status: pid 2496 exit 0> worker=0
+I, [2017-07-28T14:32:46.791871 #2486]  INFO -- : reaped #<Process::Status: pid 2499 exit 0> worker=1
+I, [2017-07-28T14:32:46.792024 #2486]  INFO -- : reaped #<Process::Status: pid 2502 exit 0> worker=2
+I, [2017-07-28T14:32:46.792151 #2486]  INFO -- : reaped #<Process::Status: pid 2505 exit 0> worker=3
+I, [2017-07-28T14:32:46.792486 #2486]  INFO -- : master complete
+I, [2017-07-30T23:36:37.949717 #1717]  INFO -- : Refreshing Gem list
+I, [2017-07-30T23:36:54.674138 #1717]  INFO -- : unlinking existing socket=/home/invest/repository/admin/shared/unicorn.sock
+I, [2017-07-30T23:36:54.675154 #1717]  INFO -- : listening on addr=/home/invest/repository/admin/shared/unicorn.sock fd=12
+I, [2017-07-30T23:36:54.682691 #1717]  INFO -- : master process ready
+I, [2017-07-30T23:36:54.698131 #1728]  INFO -- : worker=1 ready
+I, [2017-07-30T23:36:54.700289 #1734]  INFO -- : worker=3 ready
+I, [2017-07-30T23:36:54.700916 #1725]  INFO -- : worker=0 ready
+I, [2017-07-30T23:36:54.708896 #1731]  INFO -- : worker=2 ready
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+I, [2017-08-18T09:38:47.090659 #1717]  INFO -- : reaped #<Process::Status: pid 1725 exit 0> worker=0
+I, [2017-08-18T09:38:47.091135 #1717]  INFO -- : reaped #<Process::Status: pid 1728 exit 0> worker=1
+I, [2017-08-18T09:38:47.091281 #1717]  INFO -- : reaped #<Process::Status: pid 1731 exit 0> worker=2
+I, [2017-08-18T09:38:47.091407 #1717]  INFO -- : reaped #<Process::Status: pid 1734 exit 0> worker=3
+I, [2017-08-18T09:38:47.091761 #1717]  INFO -- : master complete
+I, [2017-08-18T13:45:16.066722 #2659]  INFO -- : Refreshing Gem list
+I, [2017-08-18T13:45:33.894053 #2659]  INFO -- : unlinking existing socket=/home/invest/repository/admin/shared/unicorn.sock
+I, [2017-08-18T13:45:33.895668 #2659]  INFO -- : listening on addr=/home/invest/repository/admin/shared/unicorn.sock fd=12
+I, [2017-08-18T13:45:33.903577 #2659]  INFO -- : master process ready
+I, [2017-08-18T13:45:33.919029 #2671]  INFO -- : worker=1 ready
+I, [2017-08-18T13:45:33.919383 #2677]  INFO -- : worker=3 ready
+I, [2017-08-18T13:45:33.925939 #2668]  INFO -- : worker=0 ready
+I, [2017-08-18T13:45:33.928032 #2674]  INFO -- : worker=2 ready
+D, [2017-08-28T20:00:31.868348 #2659] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-09-04T17:16:44.987940 #2659] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-09-05T20:00:44.227557 #2659] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-09-07T22:12:34.864902 #2659] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-09-11T20:00:45.141327 #2659] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-09-13T20:01:10.071270 #2659] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-09-20T20:01:27.728468 #2659] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-09-21T22:29:38.257104 #2659] DEBUG -- : waiting 16.0s after suspend/hibernation
+I, [2017-09-22T12:53:20.653945 #2496]  INFO -- : Refreshing Gem list
+I, [2017-09-22T12:53:42.887577 #2496]  INFO -- : unlinking existing socket=/home/invest/repository/admin/shared/unicorn.sock
+I, [2017-09-22T12:53:42.889005 #2496]  INFO -- : listening on addr=/home/invest/repository/admin/shared/unicorn.sock fd=12
+I, [2017-09-22T12:53:42.902993 #2496]  INFO -- : master process ready
+I, [2017-09-22T12:53:42.937176 #2514]  INFO -- : worker=3 ready
+I, [2017-09-22T12:53:42.937927 #2511]  INFO -- : worker=2 ready
+I, [2017-09-22T12:53:42.937998 #2508]  INFO -- : worker=1 ready
+I, [2017-09-22T12:53:42.939190 #2505]  INFO -- : worker=0 ready
+D, [2017-09-22T20:01:10.244165 #2496] DEBUG -- : waiting 16.0s after suspend/hibernation
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+D, [2017-10-02T20:00:18.380151 #2496] DEBUG -- : waiting 16.0s after suspend/hibernation
+I, [2017-10-13T22:35:44.623677 #1680]  INFO -- : Refreshing Gem list
+I, [2017-10-13T22:36:06.089830 #1680]  INFO -- : unlinking existing socket=/home/invest/repository/admin/shared/unicorn.sock
+I, [2017-10-13T22:36:06.092303 #1680]  INFO -- : listening on addr=/home/invest/repository/admin/shared/unicorn.sock fd=12
+I, [2017-10-13T22:36:06.107427 #1680]  INFO -- : master process ready
+I, [2017-10-13T22:36:06.132854 #1691]  INFO -- : worker=1 ready
+I, [2017-10-13T22:36:06.136834 #1688]  INFO -- : worker=0 ready
+I, [2017-10-13T22:36:06.154230 #1697]  INFO -- : worker=3 ready
+I, [2017-10-13T22:36:06.157264 #1694]  INFO -- : worker=2 ready
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+D, [2017-10-21T20:00:59.475134 #1680] DEBUG -- : waiting 16.0s after suspend/hibernation
+D, [2017-10-27T14:26:12.518873 #1680] DEBUG -- : waiting 16.0s after suspend/hibernation
+I, [2017-10-27T14:56:48.540398 #1680]  INFO -- : reaped #<Process::Status: pid 1688 exit 0> worker=0
+I, [2017-10-27T14:56:48.540626 #1680]  INFO -- : reaped #<Process::Status: pid 1691 exit 0> worker=1
+I, [2017-10-27T14:56:48.540721 #1680]  INFO -- : reaped #<Process::Status: pid 1694 exit 0> worker=2
+I, [2017-10-27T14:56:48.540852 #1680]  INFO -- : reaped #<Process::Status: pid 1697 exit 0> worker=3
+I, [2017-10-27T14:56:48.541055 #1680]  INFO -- : master complete
+I, [2017-10-27T16:09:15.159649 #2644]  INFO -- : Refreshing Gem list
+I, [2017-10-27T16:09:30.936380 #2644]  INFO -- : unlinking existing socket=/home/invest/repository/admin/shared/unicorn.sock
+I, [2017-10-27T16:09:30.937676 #2644]  INFO -- : listening on addr=/home/invest/repository/admin/shared/unicorn.sock fd=12
+I, [2017-10-27T16:09:30.950312 #2644]  INFO -- : master process ready
+I, [2017-10-27T16:09:30.964932 #2656]  INFO -- : worker=1 ready
+I, [2017-10-27T16:09:30.967763 #2662]  INFO -- : worker=3 ready
+I, [2017-10-27T16:09:30.969576 #2653]  INFO -- : worker=0 ready
+I, [2017-10-27T16:09:30.980314 #2659]  INFO -- : worker=2 ready
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+I, [2017-11-11T14:30:08.765127 #5208]  INFO -- : Refreshing Gem list
+I, [2017-11-11T14:30:25.451376 #5208]  INFO -- : unlinking existing socket=/home/invest/repository/admin/shared/unicorn.sock
+I, [2017-11-11T14:30:25.452657 #5208]  INFO -- : listening on addr=/home/invest/repository/admin/shared/unicorn.sock fd=12
+I, [2017-11-11T14:30:25.460298 #5208]  INFO -- : master process ready
+I, [2017-11-11T14:30:25.493674 #5224]  INFO -- : worker=1 ready
+I, [2017-11-11T14:30:25.493674 #5230]  INFO -- : worker=3 ready
+I, [2017-11-11T14:30:25.496448 #5221]  INFO -- : worker=0 ready
+I, [2017-11-11T14:30:25.496415 #5227]  INFO -- : worker=2 ready
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+I, [2018-01-12T20:27:08.431981 #2885]  INFO -- : Refreshing Gem list
+I, [2018-01-12T20:27:24.456437 #2885]  INFO -- : unlinking existing socket=/home/invest/repository/admin/shared/unicorn.sock
+I, [2018-01-12T20:27:24.457547 #2885]  INFO -- : listening on addr=/home/invest/repository/admin/shared/unicorn.sock fd=12
+I, [2018-01-12T20:27:24.467604 #2885]  INFO -- : master process ready
+I, [2018-01-12T20:27:24.499364 #2893]  INFO -- : worker=0 ready
+I, [2018-01-12T20:27:24.499409 #2896]  INFO -- : worker=1 ready
+I, [2018-01-12T20:27:24.502586 #2899]  INFO -- : worker=2 ready
+I, [2018-01-12T20:27:24.502586 #2902]  INFO -- : worker=3 ready
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory
+prince: /home/invest/repository/admin/releases/20150629062219/vendor/assets/stylesheets/bootstrap.css: warning: can't open input file: No such file or directory

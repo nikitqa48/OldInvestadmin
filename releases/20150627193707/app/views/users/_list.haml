@@ -1,0 +1,24 @@
+
+-# Locals:
+-#  - Users - AR collection;
+
+%table.table.table-bordered
+  %thead
+    %th= User.human_attribute_name(:role)
+    %th= User.human_attribute_name(:email)
+    %th
+  %tbody
+  - users.each do |user|
+    %tr
+      %td= user.role_label
+      %td= user.email
+      %td.under-pressure-td
+        - if can? :update, user
+          = link_to edit_user_path(user), class: 'btn btn-primary btn-xs', title: t('buttons.edit') do
+            %i.icon-pencil.icon-white
+          = button_fix
+        - if can? :destroy, user
+          = link_to user_path(user), method: :delete, class: 'btn btn-xs btn-danger', title: t('buttons.delete'), confirm: t('buttons.confirm') do
+            %i.icon-trash.icon-white
+
+= will_paginate users

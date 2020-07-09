@@ -1,0 +1,20 @@
+-# Locals:
+-#  ** form - the FormBuilder object;
+
+- object = form.object
+- return if object.new_record?
+
+.pictures-panel
+  .pictures-container
+    = link_to t('buttons.add_image'), '#', class: 'btn btn-info add-picture-btn', onclick: 'return false'
+    .pictures
+      .picture.template
+        = form.fields_for :pictures, object.pictures.build do |pic|
+          = pic.file_field :file, class: 'picture-input'
+          = link_to t('buttons.delete'), '#', class: 'btn btn-xs btn-danger destroy-picture-btn', onclick: 'return false'
+
+      - (object.pictures || []).each do |item|
+        - next if item.new_record?
+        .picture.uploaded
+          = image_tag item.file_url(:small)
+          = link_to t('buttons.delete'), picture_path(item), method: :delete, class: 'btn btn-xs btn-danger destroy-picture-btn'

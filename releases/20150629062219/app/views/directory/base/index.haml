@@ -1,0 +1,9 @@
+= render_notice
+%h3.pull-left= t "directory.#{controller_name.classify.pluralize.underscore}.index.title"
+%span.top-panel-actions
+  - if can? :create, controller_name.classify
+    = link_to url_for(:action => :new), :class => 'btn btn-primary' do
+      %i.icon-plus.icon-white
+      = t 'buttons.add'
+
+= render 'list', collection: collection

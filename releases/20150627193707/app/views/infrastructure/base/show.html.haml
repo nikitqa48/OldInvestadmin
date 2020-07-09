@@ -1,0 +1,5 @@
+%h1= resource.name
+%table.table.table-bordered
+  - @attributes.each do |attribute|
+    = data_row resource, attribute
+= link_to t('buttons.cancel'), url_for(action: "index"), :class => 'btn'

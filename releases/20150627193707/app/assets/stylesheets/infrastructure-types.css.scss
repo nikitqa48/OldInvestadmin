@@ -1,0 +1,24 @@
+.picture-uploader {
+  &.infrastructure-types {
+    a {
+      width: 38px;
+      height: 38px;
+      display: block;
+      -moz-border-radius: 22px;
+      -webkit-border-radius: 22px;
+      -khtml-border-radius: 22px;
+      border-radius: 22px;
+      background: #13314d;
+      text-align: center ;
+      float:left;
+      img {
+        &.pull-left {
+          float: none;
+          display: inline-block !important;
+          margin-top: 7px;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>объект2</name>
+  <description><![CDATA[]]></description>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style41">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style43">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style42">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style46">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style45">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style38">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style44">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style47">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Строительство газораспределительной станции    (ГРС Грязи-2) и лупинга газопровода-отвода к ГРС Грязи</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство газораспределительной станции    (ГРС Грязи-2) и лупинга газопровода-отвода к ГРС Грязи</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>2500</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2015</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки</div>
+</div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>39.878311,52.490726,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство объектов электросетевого хозяйства для осуществления электроснабжения водозабора и водоочистных сооружений на территории ОЭЗ РУ ППТ «Тербуны»</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство объектов электросетевого хозяйства для осуществления электроснабжения водозабора и водоочистных сооружений на территории ОЭЗ РУ ППТ «Тербуны»</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Плата за технологическое присоединение</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br> </div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки</div>
+</div>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>38.289242,52.143078,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство 1 этапа объекта «Очистные сооружения биоочистки и пруды фильтрации»  Очистные сооружения произв. 2700 м3/сут.</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство 1 этапа объекта «Очистные сооружения биоочистки и пруды фильтрации» 
+Очистные сооружения произв. 2700 м3/сут.
+</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>70,0</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>38.286839,52.145866,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство 1 этапа объекта «Система водоснабжения». Водозабор: 8 эксплуатационных скважин, станция второго подъема, резервуар 1200 м3, водопровод 7,1 км</name>
+    <description><![CDATA[
+<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство 1 этапа объекта «Система водоснабжения». Водозабор: 8 эксплуатационных скважин, станция второго подъема, резервуар 1200 м3, водопровод 7,1 км</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Внебюджетные средства</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>50,0</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>38.286152,52.144234,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство волоконно-оптической линии связи по территории ОЭЗ, L=6 км</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство волоконно-оптической линии связи по территории ОЭЗ, L=6 км</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>2,0</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style41</styleUrl>
+    <Point>
+      <coordinates>38.287609,52.144234,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство волоконно-оптической линии связи по территории ОЭЗ, L=3 км</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство волоконно-оптической линии связи по территории ОЭЗ, L=3 км</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>3,0</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>39.150639,53.254227,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство 2КЛ-10 кВ-5,125 км; РП-10 кВ- 1 шт.</name>
+    <description><![CDATA[
+<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство 2КЛ-10 кВ-5,125 км; РП-10 кВ- 1 шт.</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Внебюджетные средства</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>51</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2015</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>39.157162,53.253609,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство автодороги по ул. Экономическая на территории ОЭЗ, L=1,3 км</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство автодороги по ул. Экономическая на территории ОЭЗ, L=1,3 км</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>52</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>39.161797,53.257305,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ремонт участка автодороги Данков-Лев-Толстой (2 этап), L=1,9 км</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Ремонт участка автодороги Данков-Лев-Толстой (2 этап), L=1,9 км</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>16,0</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>39.161282,53.253609,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство ПС «Заря»2х40 МВА</name>
+    <description><![CDATA[<div dir="ltr">&lt;div style="width:500px"&gt;<br>&lt;div style="padding:2px;margin-left:5px"&gt;&lt;b&gt;Строительство ПС «Заря»2х40 МВА&lt;/b&gt;<br>&lt;/div&gt;&lt;hr&gt;<br>&lt;div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"&gt;&lt;b style="font-size:11px;line-height:5px"&gt;Источники&lt;br&gt;финансирования<br>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Внебюджетные средства&lt;/div&gt;<br>&lt;div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"&gt;&lt;b style="font-size:11px;line-height:5px"&gt;Полная стоимость строительства (млн.руб)<br>&lt;/b&gt;&lt;br&gt;223,7&lt;/div&gt;<br>&lt;div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"&gt;&lt;b style="font-size:11px;line-height:5px"&gt;Планируемые сроки строительства<br>&lt;/b&gt;&lt;br&gt;&lt;br&gt;2015-2016&lt;/div&gt;<br>&lt;div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"&gt;&lt;b style="font-size:11px;line-height:5px"&gt;Фактическое состояние<br>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Этап подготовки<br>&lt;/div&gt;<br>&lt;/div&gt;</div>]]></description>
+    <styleUrl>#style43</styleUrl>
+    <Point>
+      <coordinates>39.962769,53.171474,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство объектов электросетевого хозяйства для осуществления электроснабжения канализационно-насосной станции системы водоотведения хозфекальных стоков на территории ОЭЗ РУ ППТ «Чаплыгинская»</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство объектов электросетевого хозяйства для осуществления электроснабжения канализационно-насосной станции системы водоотведения хозфекальных стоков на территории ОЭЗ РУ ППТ «Чаплыгинская»</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Плата за технологическое присоединение</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br></div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>39.913330,53.252068,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство волоконно-оптической линии связи по территории ОЭЗ, L=8 км</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство волоконно-оптической линии связи по территории ОЭЗ, L=8 км</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>7,0</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>38.622437,52.629730,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>ВЛ 110 кВ для э/с ОЭЗ РУ «Елецпром» </name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>ВЛ 110 кВ для э/с ОЭЗ РУ «Елецпром» </b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Внебюджетные средства</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>11,6</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2014</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style39</styleUrl>
+    <Point>
+      <coordinates>38.419189,52.556316,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>ПС 110 кВ для э/с ОЭЗ РУ &quot;Елецпром&quot;, 2х40 МВА  </name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>ПС 110 кВ для э/с ОЭЗ РУ "Елецпром", 2х40 МВА  </b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Внебюджетные средства</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>223,4</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2014-2015</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>38.479614,52.679714,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство подъездной автодороги к ОЭЗ ППТ «Елецпром» от автодороги М4 L=3,3 км  </name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство подъездной автодороги к ОЭЗ ППТ «Елецпром» от автодороги М4
+L=3,3 км  
+</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>114,2</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style40</styleUrl>
+    <Point>
+      <coordinates>38.534546,52.536274,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>с.Скорняково  Проектирование и реконструкция  существующих сетей электроснабжения (ВЛ и ТП) для технологического присоединения объектов ООО «Усадьба Скорняково»  - строительство автодороги с асфальтовым покрытием - L=1,5 км</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>с.Скорняково 
+Проектирование и реконструкция  существующих сетей электроснабжения (ВЛ и ТП) для технологического присоединения объектов ООО «Усадьба Скорняково» 
+- строительство автодороги с асфальтовым покрытием - L=1,5 км
+</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Плата за технологическое присоединение</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>24,6</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>38.835297,52.371407,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство объектов электросетевого хозяйств для объектов, расположенных на территории АТК «Задонщина»</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство объектов электросетевого хозяйств для объектов, расположенных на территории АТК «Задонщина»</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Плата за технологическое присоединение</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br></div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>38.886108,52.359669,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Проектирование и строительство волоконно-оптической линии и объектов связи до границы участка  ООО «Усадьба Скорняково» в с.Скорняково Задонского района - L=11 км, 20 номеров, интернет</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Проектирование и строительство волоконно-оптической линии и объектов связи до границы участка  ООО «Усадьба Скорняково» в с.Скорняково Задонского района - L=11 км, 20 номеров, интернет</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>3,0</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style42</styleUrl>
+    <Point>
+      <coordinates>38.921814,52.407448,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Проектирование  инновационного  центра  (ул.  Московская) </name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Проектирование  инновационного  центра  (ул.  Московская) </b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>31,1</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>39.516449,52.602005,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Проектирование  реконструкции  и  реконструкция 4-этажного инженерно-лабораторного корпуса с административно-бытовыми помещениями (без оборудования), с частичным обустройством прилегающих территорий и общей инфраструктуры (по ул.  9 мая)</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Проектирование  реконструкции  и  реконструкция 4-этажного инженерно-лабораторного корпуса с административно-бытовыми помещениями (без оборудования), с частичным обустройством прилегающих территорий и общей инфраструктуры (по ул.  9 мая)</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>44,02</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>39.591637,52.565083,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство автомобильной дороги &quot;Восточный  обход промышленной  зоны г. Липецка   на участке &quot;ЛТЗ - автодорога &quot;Липецк -  Грязи&quot; в Грязинском  районе Липецкой области. 1-я  очередь  строительства, 1 &quot;Б&quot;  пусковой комплекс      </name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство автомобильной дороги "Восточный  обход промышленной  зоны г. Липецка   на участке "ЛТЗ - автодорога "Липецк -  Грязи" в Грязинском  районе Липецкой области. 1-я  очередь  строительства, 1 "Б"  пусковой комплекс      </b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>1340,850</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2011-2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>39.662018,52.576351,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство подъездной автомобильной дороги к ОЭЗ &quot;Елецпром&quot; от автодороги М-4 &quot;Дон&quot; в Елецком районе Липецкой области.</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство подъездной автомобильной дороги к ОЭЗ "Елецпром" от автодороги М-4 "Дон" в Елецком районе Липецкой области.
+</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>114,189</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>38.583984,52.600544,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство градирни </name>
+    <description><![CDATA[
+<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство градирни 
+</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Собственные средства</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>233,177</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2014</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строитель ство
+</div>
+</div>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>39.650688,52.580212,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Модернизация теплосети по ул.Неделина с заменой на Ду 1000 мм </name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Модернизация теплосети по ул.Неделина с заменой на Ду 1000 мм  
+</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Собственные средства</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>165,924</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2014</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строитель ство
+</div>
+</div>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>39.589577,52.596790,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство ЦТП на территории котельной 5-ого микрорайона (оформление разрешительной документации) (ТС ЕТЭЦ) г.Елец</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство ЦТП на территории котельной 5-ого микрорайона (оформление разрешительной документации) (ТС ЕТЭЦ) г.Елец  
+</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Собственные средства</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>0,1</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2014</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строитель ство
+</div>
+</div>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>38.534634,52.616547,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство участков квартальных тепловых сетей города Ельца Д=159/57 мм</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство участков квартальных тепловых сетей города Ельца Д=159/57 мм  
+</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Инвест. надбавка к тарифу на тепловую энергию</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>54,117</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2014</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>38.533516,52.615246,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>ВЛ 110кВ &quot;Ситовка-ТЭЦ-2&quot; (переходящий) (вдоль дамбы Липецкого водохранилища)</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>ВЛ 110кВ "Ситовка-ТЭЦ-2" (переходящий)
+(вдоль дамбы Липецкого водохранилища)
+</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Собственные и заемные средства </div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>268,71</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2009-2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style46</styleUrl>
+    <Point>
+      <coordinates>39.566532,52.625431,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>ПС 110/10/6 кВ &quot;Юго-Западная&quot; расширение с установкой 3-го тр-ра 40 МВА.  г.Липецк</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>ПС 110/10/6 кВ "Юго-Западная" расширение с установкой 3-го тр-ра 40 МВА.  г.Липецк</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Собственные и заемные средства </div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>158,97</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>39.508209,52.577183,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>ПС 110 кВ &quot;Рождество&quot; (2х25 МВА) с подвесом второй цепи на ВЛ 110 кВ</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>ПС 110 кВ "Рождество" (2х25 МВА) с подвесом второй цепи на ВЛ 110 кВ</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Собственные и заемные средства </div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>301,77</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2013-2014</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>39.541168,52.561325,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство жилого микрорайона «Елецкий» на 370 тыс.кв.  метров жилья – г.Липецк</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство жилого микрорайона «Елецкий» на 370 тыс.кв.  метров жилья – г.Липецк</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>10800</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2015</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style45</styleUrl>
+    <Point>
+      <coordinates>39.495163,52.606384,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство Северного жилого района на 10 тыс. кв. метров жилья –г.Елец</name>
+    <description><![CDATA[
+<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство Северного жилого района на 10 тыс. кв. метров жилья –г.Елец</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>1000</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2015</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>38.518753,52.618057,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство пригородного поселка «Романово»- Липецкий район</name>
+    <description><![CDATA[
+<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство пригородного поселка «Романово»- Липецкий район</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>22400</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2006-2015</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>39.559021,52.530426,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство жилого поселка коттеджного типа в районе ул. 18-го Партсъезда на  25 тыс. кв. метров жилья – г. Грязи</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство жилого поселка коттеджного типа в районе ул. 18-го Партсъезда на  25 тыс. кв. метров жилья – г. Грязи</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>1000</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2015</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>39.942169,52.493652,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство лабораторного корпуса областного туберкулезного диспансера с размещением детского отделения на 40 коек и аптеки г. Липецк</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство лабораторного корпуса областного туберкулезного диспансера с размещением детского отделения на 40 коек и аптеки г. Липецк</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>416,109</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2010-2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>39.576790,52.606384,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство плавательного бассейна в с.Доброе - 337,5 кв. м. зеркала воды</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство плавательного бассейна в с.Доброе - 337,5 кв. м. зеркала воды</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>116,802</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2010-2012</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style38</styleUrl>
+    <Point>
+      <coordinates>39.797974,52.835957,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство плавательного бассейна в с.Красное- 337,5 кв. м. зеркала воды</name>
+    <description><![CDATA[
+<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство плавательного бассейна в с.Красное- 337,5 кв. м. зеркала воды</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>122,839</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2010-2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>38.781738,52.826000,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство плавательного бассейна в с.Измалково- 337,5 кв. м. зеркала воды</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство плавательного бассейна в с.Измалково- 337,5 кв. м. зеркала воды</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>134,0</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2010-2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>37.979736,52.649731,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство многофункционального  спортивного комплекса в г. Липецке на 6000 зрителей</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство многофункционального  спортивного комплекса в г. Липецке на 6000 зрителей</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>2600,0</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2010-2013</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>39.627686,52.564667,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство спортивного комплекса с плавательным бассейном в пос. Газопровод Елецкого района -5010 кв. м. общ. площади</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство спортивного комплекса с плавательным бассейном в пос. Газопровод Елецкого района -5010 кв. м. общ. площади</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>269,142</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2010-2015</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style44</styleUrl>
+    <Point>
+      <coordinates>38.562012,52.686375,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство школы на 960 учащихся в пос. Лев-Толстой</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство школы на 960 учащихся в пос. Лев-Толстой</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>416,683</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2010-2012</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style47</styleUrl>
+    <Point>
+      <coordinates>39.473877,53.169827,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство культурно-спортивного комплекса на  ст. Плавица Добринского района  на 200 мест</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство культурно-спортивного комплекса на  ст. Плавица Добринского района  на 200 мест</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>147,305</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2014</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>40.336304,52.204239,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство  спортивного комплекса с катком (искусственный лед) в г. Ельце - 4043,7 кв.м. общ. площади</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство  спортивного комплекса с катком (искусственный лед) в г. Ельце - 4043,7 кв.м. общ. площади</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>316,0</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2014</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>38.441162,52.656395,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство спортивного комплекса с катком (искусственный лед) в г. Задонске - 3696 кв.м. общ. площади</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство спортивного комплекса с катком (искусственный лед) в г. Задонске - 3696 кв.м. общ. площади</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>250,0</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2011-2014</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>38.938293,52.372246,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство детского сада в с.Сенцово Липецкого района на 80 мест</name>
+    <description><![CDATA[
+<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство детского сада в с.Сенцово Липецкого района на 80 мест</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>85,0</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2014</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>39.353027,52.603046,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство ДК в г. Грязи на 800 мест</name>
+    <description><![CDATA[
+<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство ДК в г. Грязи на 800 мест</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>243,028</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2012-2016</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>39.938393,52.492188,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство спортивного комплекса с катком  (искусственный лед)   в г.Усмани  - 3596  кв. м общ. площади</name>
+    <description><![CDATA[
+<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство спортивного комплекса с катком  (искусственный лед)   в г.Усмани  - 3596  кв. м общ. площади</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>256,0</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2010-2012</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Строительство
+</div>
+</div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>39.743042,52.052490,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Строительство хирургического корпуса областного онкологического диспансера в г. Липецке  на 300 коек</name>
+    <description><![CDATA[<div style="width:500px">
+<div style="padding:2px;margin-left:5px"><b>Строительство хирургического корпуса областного онкологического диспансера в г. Липецке  на 300 коек</b>
+</div><hr>
+<div style="min-width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Источники<br>финансирования
+</b><br><br>Бюджет</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Полная стоимость строительства (млн.руб)
+</b><br>2000,0</div>
+<div style="width:115px;padding:2px;float:left;margin-left:5px;text-align:center"><b style="font-size:11px;line-height:5px">Планируемые сроки строительства
+</b><br><br>2010-2017</div>
+<div style="width:115px;float:left;margin-left:5px;text-align:center;padding-top:2px"><b style="font-size:11px;line-height:5px">Фактическое состояние
+</b><br><br>Этап подготовки
+</div>
+</div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>39.564514,52.598042,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,21 @@
+.btn {
+  &.btn-delete {
+    float:right;
+  }
+}
+.custom-field-wrap {
+  &.template {
+    display:none;
+  }
+}
+.custom-field-container {
+  .btn-add {
+    margin-left: 220px;
+    margin-bottom: 20px;
+  }
+}
+.platform-form {
+  .hidden-field {
+    display: none;
+  }
+}

@@ -1,0 +1,11 @@
+= form_for [:directory, resource], html: {class: 'form-horizontal hotkeys large-form'} do |f|
+  %fieldset
+    %legend
+      = defined?(legend) && legend
+    = render_notice
+    = error_explanation resource
+    = form_group f, :code, :text_field, class: 'integer'
+    = form_group f, :name, :text_field
+    .form-actions
+      = submit_btn f
+      = cancel_btn f

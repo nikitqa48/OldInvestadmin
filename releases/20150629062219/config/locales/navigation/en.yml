@@ -1,0 +1,9 @@
+en:
+  navigation:
+    users: Users
+    user_show: Show
+    user_edit: Edit
+    user_exit: Logout
+    information_layers: Information layers
+    infrastructure: Infrastructures
+    directories: Directories

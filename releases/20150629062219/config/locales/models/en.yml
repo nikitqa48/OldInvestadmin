@@ -1,0 +1,189 @@
+en:
+  activerecord:
+    models:
+      user: Users
+      project_type: Project type
+
+    attributes:
+      user:
+        email: Email
+        login: Login
+        password: Password
+        role: User role
+        roles:
+          admin: Admin
+          manager: Manager
+        remember_me: Remember me?
+
+      municipality:
+        code: Code
+        name: Name
+        key: Key
+        coords: Marker on map
+        description: Description
+        owner_id: Owner
+        area: Area
+        density: Density, /sq
+        population: Population
+        chief: Chief
+        status: Status
+        based: Based
+        company: Company
+        average_wage: Average wage
+        number_of_unemployed: Number of unemployed
+        registered_unemployment: Registred unemployment, %
+        distance_to_petropavlovsk_kamchatsky: Distance to Lipetsk, km.
+        distance_to_moscow: Distance to Moscow, km.
+        distance_to_nizhny_novgorod: Distance to Nizhny Novgorod, km.
+        contacts: Contacts
+
+      development_plan:
+        name: Name
+        code: Code
+        description: Description
+        owner_id: Owner
+      platform:
+        code: Code
+        name: Name
+        key: Key
+        owner_id: Owner
+        description: Description
+        area: Area, ha
+        ownership_type: Ownership type
+        land_category: Land category
+        term_code: Terms of the investment platforms investor
+        right_form: Right forms
+        contact_info: Contact
+        settlement: Settlement
+        investment_direction: Investment direction
+        city_distance: Distance from the nearest administrative center, km
+        phone: Phone
+        email: E-mail
+        railway: Rail access
+        electricity: Electric power supply
+        watter_supply: Watter supply
+        gas_supply: Gas supply
+        road: Road
+        expandable: Expandable up, ha
+        municipality: Municipality
+        platform_type: Platform type
+        demo_mode: Add to demo mode
+        territory_type_code: Territory type
+        legal_address: Legal address
+        company: Company
+        contact_person: Contact person
+        contact_person_email: Contact person email
+        contact_person_phone: Contact person phone
+        address: Address
+        land_ownership_type: Land ownership type
+        nearby_facilities: Nearby facilities
+        nearest_houses_distance: Nearest houses distance
+        limitations: Limitations
+        government_agency_providing_land: Government agency providing land
+        cadastral_number: Cadastral number
+        sanitary_protection_zones: Sanitary protection zones
+        transportation_driveways: Transportation driveways
+        region_distance: Distance from platform to another subject of Russian Federation, km
+        road_distance: Distance from platform to road, km
+        airport_distance: Distance from platform to airport, km
+        seaport_distance: Distance from platform to seaport, km
+        permitted_uses: Expected permitted use
+        building:
+          name: Building name
+          appointment: Appointment
+          floors: Floors
+          main_parameters: Main parameters
+          gas: Gas
+          electricity: Electricity
+          watersupply: Watersupply
+          canalization: Canalization
+          sewage_treatment_plant: Sewage treatment plant
+          heating: Heating
+          railway: Railway
+          cars: Cars
+        gas: Gas
+        gas_details: Gas (details)
+        electricity: Electricity
+        electricity_details: Electricity (details)
+        water: Water
+        water_details: Water (details)
+        sewerage: Sewerage
+        sewerage_details: Sewerage (details)
+        sewage_plants: Sewage plants
+        sewage_plants_details: Sewage plants (details)
+        heating: Heating
+        heating_details: Heating details (details)
+        boiler_system: Boiler system
+        boiler_system_details: Boiler system (details)
+
+      project:
+        code: Code
+        name: Name
+        key: Key
+        # territory_code: Territory
+        project_type_code: Project type #TYPE_ID
+        owner_id: Owner
+        ownership_type_code: Ownership type #ZEML_SOBSTV_ID
+        land_category_code: Land category #ZEML_KATEGORY_ID
+        registration_number: Registration number #REG_NUM
+        area: Area, ha #ZEML_SQUARE
+        coordinator_code: Coordinator #KOORD_ID
+        investor_code: Investor #INVESTOR_ID
+        address: Address #TER_COMMENT
+        goal: Goal #GOAL
+        gic_number_code: Gic number # OKVED_ID
+        contacts: Contact info
+        design_capacity: Design capacity #MOSH
+        year_start: Start year #YEAR_START
+        year_end: Year of completion #YEAR_END
+        curator_code: Curator #KURATOR_ID
+        project_kind_code: Project kind #VID_PROJECT_ID
+        payback_period: Payback period #SROK_OKUP
+        payback_period_comment: Comments to the payback period #SROK_OKUP_COMMENT
+        profitability: Profitability #RENTAB
+        profitability_comment: Profitability comment #RENTAB_COMMENT
+        investment: Investment, millions of rubles #INVEST_SUM
+        stage_code: Stage
+        jobs: The number of jobs #RAB_MEST
+        tax: Tax #NALOG
+        municipality_id: Municipality
+        tax_comment: Comments to tax #NALOG_COMMENT
+        roads: Roads #AVTEDOR
+        infrastructure: Infrastructure #PROCH_INFRASTR
+        railroad: Railroad #RZD
+        railroad_distance: Distance to railway station, km #UDAL_RZD
+        water_supply: Water supply #VOD_SNAB
+        outfall: Outfall  #VOD_OTV
+        gas_supply: Gas supply  #GAZ_SNAB
+        electric_supply: Electric supply #ENERG_SNAB
+        demo_mode: Add to demo mode
+        coords: Coordinates
+
+      directory:
+        code: Code
+        name: Name
+        icon: Icon
+        number: Number
+
+      company:
+        code: Code
+        name: Name
+        description: Description
+        municipality: Municipalities
+        activity_sphere_code: Activity sphere
+        nomenclature: Nomenclature
+
+      city:
+        code: Code
+        name: Name
+        key: Key
+        coords: Marker on map
+        description: Description
+        population: Population
+        area: Area, ha
+        based: Based, year
+        chief: Chief
+        site: Site
+        density: Density
+        subdivisions: Subdivisions
+        economically_active_population: Economically active population

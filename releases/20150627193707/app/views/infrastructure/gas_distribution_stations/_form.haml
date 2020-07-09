@@ -1,0 +1,36 @@
+= form_for [:infrastructure, resource], :html => {:class => 'map-selector form-horizontal hotkeys large-form',
+           'data-namespace' => resource.class.to_s.underscore.gsub('/', '_')} do |f|
+  %fieldset
+    %legend
+      = defined?(legend) && legend
+    = render_notice
+    = error_explanation resource
+
+    = form_group f, :name, :text_field
+    = owner_select f
+    = form_group f, :description, :text_field
+    = form_group f, :municipality_id, :select, options_from_collection_for_select(@municipalities, :id, :name, :selected => f.object.send(:municipality_id)), {:include_blank => true}, {:class => 'simple-chosen', "data-placeholder" => t("helpers.placeholder.default")}
+    = form_group f, :city_id, :select, options_from_collection_for_select(@cities, :id, :name, :selected => f.object.send(:city_id)), {:include_blank => true}, {:class => 'simple-chosen', "data-placeholder" => t("helpers.placeholder.default")}
+
+    = form_group f, :out_1, :text_field, :class => "numeric"
+    = form_group f, :thousand_m3h_1, :text_field, :class => "numeric"
+    = form_group f, :million_m3y_1, :text_field, :class => "numeric"
+    = form_group f, :project_million_m3y_1, :text_field, :class => "numeric"
+    = form_group f, :actual_million_m3y_1, :text_field, :class => "numeric"
+    = form_group f, :loading_1, :text_field, :class => "numeric"
+    = form_group f, :out_2, :text_field, :class => "numeric"
+    = form_group f, :thousand_m3h_2, :text_field, :class => "numeric"
+    = form_group f, :million_m3y_2, :text_field, :class => "numeric"
+    = form_group f, :project_million_m3y_2, :text_field, :class => "numeric"
+    = form_group f, :actual_million_m3y_2, :text_field, :class => "numeric"
+    = form_group f, :loading_2, :text_field, :class => "numeric"
+
+    = form_group f, :owner, :text_field
+    = form_group f, :relevance, :text_field, :class => 'date-picker'
+    = form_group f, :operating_organization, :text_area
+
+    = map_field f, true
+    .form-actions
+      = submit_btn f
+      = cancel_btn f
+

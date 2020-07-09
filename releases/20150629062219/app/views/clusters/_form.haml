@@ -1,0 +1,28 @@
+= form_for @cluster, :html => {:multipart => true, :class => "map-selector form-horizontal hotkeys large-form", "data-map-selector" => "area", "data-namespace" => "cluster"} do |f|
+  %fieldset
+    %legend
+      = defined?(legend) && legend
+    = render_notice
+    = error_explanation @cluster
+    .form-group
+      .control-label
+        = submit_btn f
+
+    = form_group f, :name, :text_field
+    = map_field f
+    = form_group f, [:municipality, :municipality_id], :select, options_from_collection_for_select(@municipalities, :id, :name,:selected => f.object.municipality_id), {:include_blank => true}, {:class => "simple-chosen", "data-placeholder" => t("helpers.placeholder.default")}
+    = form_group f, :description, :text_area do
+      = f.cktext_area :description, :ckeditor => {:toolbar => 'mini', :height => 400}
+    = form_group f, :company, :text_field
+    = form_group f, :contact_person, :text_field
+    = form_group f, :contact_phone, :text_field
+    = form_group f, :contact_email, :text_field
+    = form_group f, :address, :text_area
+    = form_group f, :free_square, :text_field, class: 'numeric'
+
+    = form_group f, :residents, :text_area
+    = form_check_box f, :demo_mode
+    = render 'gallery_pictures/pictures', form: f
+    .form-actions
+      = submit_btn f
+      = cancel_btn f

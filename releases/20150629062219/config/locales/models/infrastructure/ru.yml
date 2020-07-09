@@ -1,0 +1,186 @@
+ru:
+  activerecord:
+    attributes:
+
+      power_base: &power_base
+        name: Название
+        owner_id: Создатель
+        city_id: Населенный пункт
+        owner: Собственник объекта
+        operating_organization: Эксплуатирующая организация
+        year_start: Год ввода в эксплуатацию электростанции
+        installed_power: Установленная мощность электростанции
+        having_power: Располагаемая мощность электростанции
+        generators_brand: Марка дизель-генераторов
+        generators_power: Мощность дизель-генераторов
+        generators_release_year: Год выпуска установленных дизель-генераторов
+        relevance: Актуальность данных
+
+      infrastructure:
+        name: Название
+        owner_id: Создатель
+
+      central_heating_unit:
+        name: Название
+        owner_id: Создатель
+        year_start: Год ввода в эксплуатацию котельной
+        power: Установленная мощность, (МВт/Гкал)
+        fuel_type: Вид используемого топлива
+        equipment_type: Тип установленного оборудования
+        boiler_count: Количество котлов, в т.ч. резервных
+        boiler_year_start: Год ввода в эксплуатацию котлов
+        boiler_power: Мощность котлов (Гкал/час)
+        connected_load: Присоединенная нагрузка (Гкал/час)
+        boiler_performance: КПД котлов
+        production_in_year: Выработка в год, млн. кВт*ч,  тыс.Гкал
+        relevance: Актуальность данных
+
+      diesel_power_plant:
+        <<: *power_base
+
+      duel_fuel_power_plant:
+        <<: *power_base
+
+      geothermal_electricity_plant:
+        <<: *power_base
+
+      hydro_plant:
+        <<: *power_base
+
+      wind_plant:
+        <<: *power_base
+
+      electric_power_transmission:
+        name: Название
+        owner_id: Создатель
+        description: Описание
+        supplier: Поставщик
+        transmission_class: Класс трансмиссии
+        city_from_id: Откуда
+        city_to_id: Куда
+        number: Номер
+        owner: Собственник объекта
+        relevance: Актуальность данных
+        operating_organization: Эксплуатирующая организация
+
+      gas_distribution_station:
+        name: Название
+        owner_id: Создатель
+        description: Описание
+        municipality_id: Муниципалитет
+        city_id: Поселение
+        out_1: Выход Мпа 1
+        thousand_m3h_1: Тыс. м. куб. час 1
+        million_m3y_1: Миллионы м. куб. год 1
+        project_million_m3y_1: Проектируемые миллионы м. куб. год 1
+        actual_million_m3y_1: Фактические миллионы м. куб. год 1
+        loading_1: Загрузка, проценты 1
+        out_2: Выход Мпа 2
+        thousand_m3h_2: Тыс. м. куб. час 2
+        million_m3y_2: Миллионы м. куб. год 2
+        project_million_m3y_2: Проектируемые миллионы м. куб. год 2
+        actual_million_m3y_2: Фактические миллионы м. куб. год 2
+        loading_2: Загрузка, проценты 2
+        owner: Собственник
+        relevance: Актуальность данных
+        operating_organization: Эксплуатирующая организация
+
+      gas_pipeline:
+        name: Название
+        owner_id: Создатель
+        description: Описание
+        number: Номер
+        diameter: Диаметр, толщина стенки (мм)
+        length: Протяженность газопровода (км)
+        owner: Собственник
+        relevance: Актуальность данных
+        operating_organization: Эксплуатирующая организация
+
+      intake:
+        name: Название
+        owner_id: Создатель
+        intake_type: Вид водозаборного сооружения
+        address: Местоположение (адрес)
+        owner: Собственник объекта
+        operating_organization: Эксплуатирующая организация
+        year_start: Год ввода в эксплуатацию
+        power: Установленная производственная мощность тыс.куб.м.в сутки
+        water_supplied_to_net: Подано воды в сеть (тыс. м куб. в год)
+        relevance: Актуальность данных
+
+      heat_only_boiler_station:
+        name: Название
+        owner_id: Создатель
+        year_start: Год ввода в эксплуатацию котельной
+        owner: Собственник котельной
+        operating_organization: Эксплуатирующая организация
+        fuel_type: Вид используемого топлива
+        boiler_type: Тип установленных котлов
+        boiler_count: Количество котлов, в т.ч. резервных
+        boiler_year_start: Год ввода в эксплуатацию котлов
+        boiler_power: Мощность котлов (Гкал/час)
+        connected_load: Присоединенная нагрузка (Гкал/час)
+        boiler_performance: КПД котлов
+        heat_production_in_year: Выработка тепловой энергии в год
+        relevance: Актуальность данных
+
+      heating_main:
+        name: Название
+        owner_id: Создатель
+        description: Описание
+        diameter: Диаметр
+        length: Протяженность
+        owner: Собственник объекта
+        operating_organization: Эксплуатирующая организация
+        relevance: Актуальность данных
+
+      sewer:
+        owner_id: Создатель
+        name: Наименование участка сети
+        description: Описание (в т.ч. протяженность, диаметр)
+        owner: Собственник объекта
+        operating_organization: Эксплуатирующая организация
+        year_start: Год ввода в эксплуатацию
+        power: Установленная производственная мощность, тыс.м.3/сут
+        relevance: Актуальность данных
+
+      transformer_substation:
+        name: Название
+        owner_id: Создатель
+        description: Описание
+        number: Номер
+        owner: Собственник
+        category: Класс
+        district: Район
+        address: Адрес расположения
+        relevance: Актуальность данных
+        operating_organization: Эксплуатирующая организация
+
+      wastewater_treatment_plant:
+        name: Название
+        owner_id: Создатель
+        build_type: Вид сооружения
+        address: Местоположение (адрес)
+        owner: Собственник объекта
+        operating_organization: Эксплуатирующая организация
+        year_start: Год ввода вэксплуатацию
+        power: Установленная производственная мощность тыс.куб.м.всутки
+        conceded_wastewater: Пропущено сточных вод через очистное сооружение (тыс. м куб. вгод)
+        relevance: Актуальность данных
+
+      water_supply:
+        name: Название
+        owner_id: Создатель
+        description: Описание (в т.ч. протяженность, диаметр)
+        owner: Собственник объекта
+        operating_organization: Эксплуатирующая организация
+        year_start: Год ввода в эксплуатацию
+        power: Установленная производственная мощность, тыс.м.3/сут
+        relevance: Актуальность данных
+
+      point_of_interest:
+        coords: Отметка на карте
+        description: Описание
+        owner_id: Владелец
+        name: Название
+        point_of_interest_type: Вид

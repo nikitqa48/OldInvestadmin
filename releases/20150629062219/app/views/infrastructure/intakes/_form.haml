@@ -1,0 +1,23 @@
+= form_for [:infrastructure, resource], :html => {:class => 'map-selector form-horizontal hotkeys large-form',
+           'data-namespace' => resource.class.to_s.underscore.gsub('/', '_')} do |f|
+  %fieldset
+    %legend
+      = defined?(legend) && legend
+    = render_notice
+    = error_explanation resource
+
+    = form_group f, :name, :text_field
+    = owner_select f
+    = form_group f, :intake_type, :text_field
+    = form_group f, :address, :text_area
+    = form_group f, :owner, :text_field
+    = form_group f, :operating_organization, :text_field
+    = form_group f, :year_start, :text_field, :class => 'positive-integer'
+    = form_group f, :power, :text_field, :class => 'numeric'
+    = form_group f, :water_supplied_to_net, :text_field, :class => 'numeric'
+    = form_group f, :relevance, :text_field, :class => 'date-picker'
+
+    = map_field f, true
+    .form-actions
+      = submit_btn f
+      = cancel_btn f

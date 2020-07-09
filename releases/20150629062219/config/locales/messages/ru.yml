@@ -1,0 +1,28 @@
+ru:
+  messages:
+    switch_user: Сменить пользователя
+    record_updated: Запись обновлена
+    record_created: Запись создана
+    download: Скачать
+    file_not_load: Файл не загружен
+    mail_from:
+      subject: Сообщение с сайта инвестиционной карты Липецкой области
+      request_to: "Заявка на участие в программе"
+      email: "E-mail"
+      organization: "Организация"
+      full_name: "Ф.И.О."
+    tooltips:
+      save: или CTRL+S
+    new: "Создание \"%{name}\""
+    edit: "Редактирование \"%{name}\""
+    user_created: "Пользователь успешно создан"
+    user_created_and_send_message: "Пользователь успешно создан, реквизиты отправлены на ваш email %{email} "
+    record_edit: Редактирование записи
+    record_new: Создание записи
+    record_not_found: Запись не найдена
+    validation:
+      must_be_a_boolean: должен быть логического типа
+  errors:
+    messages:
+      access_denied: Вы не имеете доступа к запрашиваемой странице.
+

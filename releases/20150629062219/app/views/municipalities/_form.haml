@@ -1,0 +1,31 @@
+= form_for @municipality, :html => {:multipart => true,:class => 'map-selector form-horizontal hotkeys picture-list large-form double-submit-protector', 'data-namespace' => 'municipality', 'data-map-selector' => 'area'} do |f|
+  %fieldset
+    %legend
+      = defined?(legend) && legend
+    = render_notice
+    = error_explanation @municipality
+    .form-group
+      .control-label
+        = f.submit @municipality.new_record? ? t('buttons.create') : t('buttons.save'), :class => 'btn btn-primary btn-with-tooltip','data-original-title' => t('messages.tooltips.save'),'data-placement' => 'bottom'
+      .controls
+    = form_group f, :description, :text_area
+    = form_group f, :name, :text_field
+    = form_group f, :area, :text_field
+    = form_group f, :density, :text_field, :class => 'integer'
+    = form_group f, :population, :text_field, :class => 'integer'
+    = form_group f, :chief, :text_field
+    = form_group f, :status, :text_field
+    = form_group f, :based, :text_field
+    = form_group f, :average_wage, :text_field, :class => 'integer'
+    = form_group f, :number_of_unemployed, :text_field, :class => 'integer'
+    = form_group f, :registered_unemployment, :text_field, :class => 'integer'
+    = form_group f, :distance_to_petropavlovsk_kamchatsky, :text_field, :class => 'integer'
+    = form_group f, :contacts, :text_area
+    = form_check_box f, :demo_mode
+    = owner_select f
+
+    = map_field f
+    = render 'gallery_pictures/pictures', form: f
+    .form-actions
+      = f.submit @municipality.new_record? ? t('buttons.create') : t('buttons.save'), :class => 'btn btn-primary btn-with-tooltip','data-original-title' => t('messages.tooltips.save'),'data-placement' => 'bottom'
+      = link_to t('buttons.cancel'), projects_path, :class => 'btn'
